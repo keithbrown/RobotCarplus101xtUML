@@ -1,0 +1,49 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("01422ef7-5300-489f-8f39-c6fa5a07821f",
+	"00000000-0000-0000-0000-000000000000",
+	'USB',
+	'');
+INSERT INTO C_EP
+	VALUES ("2aa25dfe-1aa8-4df5-b40d-0d4bfc9e8280",
+	"01422ef7-5300-489f-8f39-c6fa5a07821f",
+	-1,
+	'DownloadProgram',
+	'');
+INSERT INTO C_IO
+	VALUES ("2aa25dfe-1aa8-4df5-b40d-0d4bfc9e8280",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'DownloadProgram',
+	'',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("3295b761-5085-4bfd-bdce-81b77433c35e",
+	"01422ef7-5300-489f-8f39-c6fa5a07821f",
+	-1,
+	'RecieveSerialData',
+	'');
+INSERT INTO C_IO
+	VALUES ("3295b761-5085-4bfd-bdce-81b77433c35e",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'RecieveSerialData',
+	'',
+	0,
+	'',
+	"2aa25dfe-1aa8-4df5-b40d-0d4bfc9e8280");
+INSERT INTO PE_PE
+	VALUES ("01422ef7-5300-489f-8f39-c6fa5a07821f",
+	1,
+	"dcacb07d-82fc-48fa-b0a4-daeae33ee0fb",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("dcacb07d-82fc-48fa-b0a4-daeae33ee0fb",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Interface Library',
+	'',
+	0,
+	'../Interface Library.xtuml');

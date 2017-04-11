@@ -1,0 +1,93 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("7a1846b8-1013-4947-a6cf-6524c57dd172",
+	"00000000-0000-0000-0000-000000000000",
+	'L298N Control Signals',
+	'');
+INSERT INTO C_EP
+	VALUES ("bf6c9086-9ce8-49d1-93cd-288c0fdd6c3a",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'enA',
+	'');
+INSERT INTO C_AS
+	VALUES ("bf6c9086-9ce8-49d1-93cd-288c0fdd6c3a",
+	'enA',
+	'',
+	1,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("544435c1-c081-48b6-a4a4-5b4ac204409e",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'in1',
+	'');
+INSERT INTO C_AS
+	VALUES ("544435c1-c081-48b6-a4a4-5b4ac204409e",
+	'in1',
+	'',
+	1,
+	"bf6c9086-9ce8-49d1-93cd-288c0fdd6c3a");
+INSERT INTO C_EP
+	VALUES ("2b3bb5ad-612b-4813-b4e6-67ca0428de3f",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'in2',
+	'');
+INSERT INTO C_AS
+	VALUES ("2b3bb5ad-612b-4813-b4e6-67ca0428de3f",
+	'in2',
+	'',
+	1,
+	"544435c1-c081-48b6-a4a4-5b4ac204409e");
+INSERT INTO C_EP
+	VALUES ("bc70ac04-add9-4118-8c47-e70fb43614a2",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'enB',
+	'');
+INSERT INTO C_AS
+	VALUES ("bc70ac04-add9-4118-8c47-e70fb43614a2",
+	'enB',
+	'',
+	1,
+	"2b3bb5ad-612b-4813-b4e6-67ca0428de3f");
+INSERT INTO C_EP
+	VALUES ("ec07db03-32ab-4013-b6f2-ba58341f8c5c",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'in3',
+	'');
+INSERT INTO C_AS
+	VALUES ("ec07db03-32ab-4013-b6f2-ba58341f8c5c",
+	'in3',
+	'',
+	1,
+	"bc70ac04-add9-4118-8c47-e70fb43614a2");
+INSERT INTO C_EP
+	VALUES ("207025b7-fdd8-4a3c-beff-30ff7e3e6ff2",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'in4',
+	'');
+INSERT INTO C_AS
+	VALUES ("207025b7-fdd8-4a3c-beff-30ff7e3e6ff2",
+	'in4',
+	'',
+	1,
+	"ec07db03-32ab-4013-b6f2-ba58341f8c5c");
+INSERT INTO PE_PE
+	VALUES ("7a1846b8-1013-4947-a6cf-6524c57dd172",
+	1,
+	"54eb4140-3df2-4d3e-a6de-6fc18bfeb16d",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("54eb4140-3df2-4d3e-a6de-6fc18bfeb16d",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'L298N Motor Drive',
+	'',
+	0,
+	'../L298N Motor Drive.xtuml');

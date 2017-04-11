@@ -1,0 +1,54 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("e5721add-25e9-4a83-9c94-7a273e4951a5",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'OverView',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("26768250-ba03-4f04-9af2-f5dba7f7aef6",
+	112,
+	"e5721add-25e9-4a83-9c94-7a273e4951a5",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Roverplus101::Analysis::OverView');
+INSERT INTO DIM_DIA
+	VALUES ("26768250-ba03-4f04-9af2-f5dba7f7aef6",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("e5721add-25e9-4a83-9c94-7a273e4951a5",
+	1,
+	"02eda2ca-6e70-46fb-829d-c1d4d2d82989",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("02eda2ca-6e70-46fb-829d-c1d4d2d82989",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Analysis',
+	'',
+	0,
+	'../Analysis.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Roverplus101',
+	1,
+	'../../Roverplus101.xtuml');

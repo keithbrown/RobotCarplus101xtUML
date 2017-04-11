@@ -1,0 +1,45 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("d2fd8321-e7ef-4295-b9e6-de7be368c85e",
+	"00000000-0000-0000-0000-000000000000",
+	'Power',
+	'');
+INSERT INTO C_EP
+	VALUES ("7a741a39-8cc1-44ff-a824-7ad4b297dd89",
+	"d2fd8321-e7ef-4295-b9e6-de7be368c85e",
+	-1,
+	'PowerPositve',
+	'');
+INSERT INTO C_AS
+	VALUES ("7a741a39-8cc1-44ff-a824-7ad4b297dd89",
+	'PowerPositve',
+	'',
+	1,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("6b44fe91-1787-424d-a08e-cc9a1e05c580",
+	"d2fd8321-e7ef-4295-b9e6-de7be368c85e",
+	-1,
+	'Ground',
+	'');
+INSERT INTO C_AS
+	VALUES ("6b44fe91-1787-424d-a08e-cc9a1e05c580",
+	'Ground',
+	'',
+	1,
+	"7a741a39-8cc1-44ff-a824-7ad4b297dd89");
+INSERT INTO PE_PE
+	VALUES ("d2fd8321-e7ef-4295-b9e6-de7be368c85e",
+	1,
+	"95d2ec94-752c-480d-8154-77565a1f59c1",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("95d2ec94-752c-480d-8154-77565a1f59c1",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Power Box',
+	'',
+	0,
+	'../Power Box.xtuml');

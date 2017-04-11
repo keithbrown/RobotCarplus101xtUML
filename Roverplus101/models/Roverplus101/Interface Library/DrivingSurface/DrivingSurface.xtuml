@@ -1,0 +1,57 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("074c79ac-14f7-449c-ba6c-a316c852b659",
+	"00000000-0000-0000-0000-000000000000",
+	'DrivingSurface',
+	'');
+INSERT INTO C_EP
+	VALUES ("70f0b9fd-f748-4d81-86e5-92887c5ff3d0",
+	"074c79ac-14f7-449c-ba6c-a316c852b659",
+	-1,
+	'Incline',
+	'');
+INSERT INTO C_AS
+	VALUES ("70f0b9fd-f748-4d81-86e5-92887c5ff3d0",
+	'Incline',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("d5362169-0d4c-47d4-bd5b-44cd40bb1075",
+	"074c79ac-14f7-449c-ba6c-a316c852b659",
+	-1,
+	'SideSlope',
+	'');
+INSERT INTO C_AS
+	VALUES ("d5362169-0d4c-47d4-bd5b-44cd40bb1075",
+	'SideSlope',
+	'',
+	0,
+	"70f0b9fd-f748-4d81-86e5-92887c5ff3d0");
+INSERT INTO C_EP
+	VALUES ("b46e6b73-b7f2-421d-9d18-2fa7cd28dcb9",
+	"074c79ac-14f7-449c-ba6c-a316c852b659",
+	-1,
+	'Material',
+	'');
+INSERT INTO C_AS
+	VALUES ("b46e6b73-b7f2-421d-9d18-2fa7cd28dcb9",
+	'Material',
+	'',
+	0,
+	"d5362169-0d4c-47d4-bd5b-44cd40bb1075");
+INSERT INTO PE_PE
+	VALUES ("074c79ac-14f7-449c-ba6c-a316c852b659",
+	1,
+	"dcacb07d-82fc-48fa-b0a4-daeae33ee0fb",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("dcacb07d-82fc-48fa-b0a4-daeae33ee0fb",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Interface Library',
+	'',
+	0,
+	'../Interface Library.xtuml');

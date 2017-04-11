@@ -1,0 +1,35 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("f52b389c-02c6-4c9b-89a7-4fafc137aae5",
+	"00000000-0000-0000-0000-000000000000",
+	'Motor Drive',
+	'All parameter can are 0-255.');
+INSERT INTO C_EP
+	VALUES ("163995b5-807f-411f-8d4f-ab959f807232",
+	"f52b389c-02c6-4c9b-89a7-4fafc137aae5",
+	-1,
+	'_MDrive(MotorRight:motorDrive;MotorLeft:motorDrive)',
+	'All values can be from 0-255.');
+INSERT INTO C_IO
+	VALUES ("163995b5-807f-411f-8d4f-ab959f807232",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'_MDrive(MotorRight:motorDrive;MotorLeft:motorDrive)',
+	'All values can be from 0-255.',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("f52b389c-02c6-4c9b-89a7-4fafc137aae5",
+	1,
+	"fafc0812-9df8-474c-a085-72fef791995d",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("fafc0812-9df8-474c-a085-72fef791995d",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Motor Drive Interfaces',
+	'',
+	256,
+	'../Motor Drive Interfaces.xtuml');

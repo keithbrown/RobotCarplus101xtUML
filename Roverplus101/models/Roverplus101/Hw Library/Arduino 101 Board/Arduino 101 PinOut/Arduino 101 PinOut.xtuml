@@ -1,0 +1,45 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("f39b4f29-c195-4a42-b053-01fb7004de75",
+	"00000000-0000-0000-0000-000000000000",
+	'Arduino 101 PinOut',
+	'');
+INSERT INTO C_EP
+	VALUES ("a57bad39-1622-46e2-8248-a8237b6b353d",
+	"f39b4f29-c195-4a42-b053-01fb7004de75",
+	-1,
+	'DI',
+	'');
+INSERT INTO C_AS
+	VALUES ("a57bad39-1622-46e2-8248-a8237b6b353d",
+	'DI',
+	'',
+	1,
+	"785b4d69-d470-457e-a566-a44eb19e4a5f");
+INSERT INTO C_EP
+	VALUES ("785b4d69-d470-457e-a566-a44eb19e4a5f",
+	"f39b4f29-c195-4a42-b053-01fb7004de75",
+	-1,
+	'A0',
+	'');
+INSERT INTO C_AS
+	VALUES ("785b4d69-d470-457e-a566-a44eb19e4a5f",
+	'A0',
+	'',
+	1,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("f39b4f29-c195-4a42-b053-01fb7004de75",
+	1,
+	"e8bd249d-a17c-450a-9606-7bbfe9c49fb4",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("e8bd249d-a17c-450a-9606-7bbfe9c49fb4",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Arduino 101 Board',
+	'',
+	0,
+	'../Arduino 101 Board.xtuml');

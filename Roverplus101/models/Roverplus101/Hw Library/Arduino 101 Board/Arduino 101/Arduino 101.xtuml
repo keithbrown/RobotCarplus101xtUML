@@ -1,0 +1,897 @@
+-- BP 7.1.6 content: Component syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_C
+	VALUES ("09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'Arduino 101',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'');
+INSERT INTO GD_MD
+	VALUES ("7f809d3c-e7fc-4870-b150-a3d705c43e28",
+	111,
+	"09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	98,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Roverplus101::Hw Library::Arduino 101 Board::Arduino 101');
+INSERT INTO GD_GE
+	VALUES ("b7a70c82-16c6-4c1f-ac69-6e69f9647b28",
+	"7f809d3c-e7fc-4870-b150-a3d705c43e28",
+	"09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	103,
+	0,
+	'Roverplus101::Hw Library::Arduino 101 Board::Arduino 101');
+INSERT INTO GD_SHP
+	VALUES ("b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO GD_CTR
+	VALUES ("b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO DIM_ND
+	VALUES (1161.000000,
+	443.000000,
+	"b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO DIM_GE
+	VALUES (4100.000000,
+	3100.000000,
+	"b7a70c82-16c6-4c1f-ac69-6e69f9647b28",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("b7a70c82-16c6-4c1f-ac69-6e69f9647b28",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_CON
+	VALUES ("c4d26bbc-1324-432c-8ae0-f913207030ca",
+	5261.000000,
+	3312.000000,
+	"b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO DIM_CON
+	VALUES ("7f3a3402-db23-4e56-bcd6-6bc347980e67",
+	4100.000000,
+	3168.000000,
+	"b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO DIM_CON
+	VALUES ("3bd298a7-3a46-4e6a-8ed0-78ee99431261",
+	4100.000000,
+	3168.000000,
+	"b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO DIM_CON
+	VALUES ("8fb2e038-7cdf-4d29-b8c0-7fb73c936334",
+	4380.000000,
+	3100.000000,
+	"b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO DIM_CON
+	VALUES ("d518fa19-ede1-4b48-9052-564495225ca1",
+	4380.000000,
+	3543.000000,
+	"b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO DIM_CON
+	VALUES ("cf0a9bd2-d247-4876-a48e-2d2fdaa813d0",
+	4100.000000,
+	3276.000000,
+	"b7a70c82-16c6-4c1f-ac69-6e69f9647b28");
+INSERT INTO GD_GE
+	VALUES ("f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	"7f809d3c-e7fc-4870-b150-a3d705c43e28",
+	"3b3bd729-818c-4d9b-bd9a-ba72ad08b4c0",
+	94,
+	0,
+	'Roverplus101::Hw Library::Arduino 101 Board::Arduino 101::Port9::Arduino 101 PinOut');
+INSERT INTO GD_CON
+	VALUES ("f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("7e7e5b47-7701-4d6a-9de1-8b7c8dc378ef",
+	"f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	2,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"7e7e5b47-7701-4d6a-9de1-8b7c8dc378ef");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"7e7e5b47-7701-4d6a-9de1-8b7c8dc378ef",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("7e7e5b47-7701-4d6a-9de1-8b7c8dc378ef",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("644a99f0-91b3-47b2-a627-dcdb7d2911e2",
+	"f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	3,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"644a99f0-91b3-47b2-a627-dcdb7d2911e2");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"644a99f0-91b3-47b2-a627-dcdb7d2911e2",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("644a99f0-91b3-47b2-a627-dcdb7d2911e2",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("1a70ff64-3339-43a3-95bb-7ec26c7e90b5",
+	"f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	1,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"1a70ff64-3339-43a3-95bb-7ec26c7e90b5");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"1a70ff64-3339-43a3-95bb-7ec26c7e90b5",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("1a70ff64-3339-43a3-95bb-7ec26c7e90b5",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_LS
+	VALUES ("8112a5f4-7b57-408c-adcf-40396efdbdeb",
+	"f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	"00000000-0000-0000-0000-000000000000",
+	"3d5414ff-ccce-4f9b-9176-d4e5d2e5c5ba",
+	"006c8999-5b82-47e6-bf9e-7398044a8d05");
+INSERT INTO DIM_WAY
+	VALUES ("006c8999-5b82-47e6-bf9e-7398044a8d05",
+	5336.000000,
+	3312.000000,
+	"f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	"00000000-0000-0000-0000-000000000000",
+	"3d5414ff-ccce-4f9b-9176-d4e5d2e5c5ba");
+INSERT INTO DIM_WAY
+	VALUES ("3d5414ff-ccce-4f9b-9176-d4e5d2e5c5ba",
+	5261.000000,
+	3312.000000,
+	"f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("f599a59d-20a5-48cf-9b29-3c6754f813bf",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ED
+	VALUES ("c4d26bbc-1324-432c-8ae0-f913207030ca",
+	"00000000-0000-0000-0000-000000000000",
+	"f599a59d-20a5-48cf-9b29-3c6754f813bf");
+INSERT INTO GD_GE
+	VALUES ("38d82f49-70aa-447c-9adf-c13baf081732",
+	"7f809d3c-e7fc-4870-b150-a3d705c43e28",
+	"013148f6-c901-4c7b-bca5-886ef943c2ef",
+	94,
+	0,
+	'Roverplus101::Hw Library::Arduino 101 Board::Arduino 101::Port8::Hw SW Interface');
+INSERT INTO GD_CON
+	VALUES ("38d82f49-70aa-447c-9adf-c13baf081732",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("4c038a5c-1c98-49f5-b512-803661d10f46",
+	"38d82f49-70aa-447c-9adf-c13baf081732",
+	2,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"4c038a5c-1c98-49f5-b512-803661d10f46");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"4c038a5c-1c98-49f5-b512-803661d10f46",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("4c038a5c-1c98-49f5-b512-803661d10f46",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("00fe9afe-37d2-4b32-aff4-e1ed4f393fca",
+	"38d82f49-70aa-447c-9adf-c13baf081732",
+	3,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"00fe9afe-37d2-4b32-aff4-e1ed4f393fca");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"00fe9afe-37d2-4b32-aff4-e1ed4f393fca",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("00fe9afe-37d2-4b32-aff4-e1ed4f393fca",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("573eab2e-eb02-4493-a262-53e36b8aff0e",
+	"38d82f49-70aa-447c-9adf-c13baf081732",
+	1,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"573eab2e-eb02-4493-a262-53e36b8aff0e");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"573eab2e-eb02-4493-a262-53e36b8aff0e",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("573eab2e-eb02-4493-a262-53e36b8aff0e",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_LS
+	VALUES ("876fda4e-bcf0-415e-975c-f32d6a8d95fc",
+	"38d82f49-70aa-447c-9adf-c13baf081732",
+	"00000000-0000-0000-0000-000000000000",
+	"c38c7448-e922-46f8-9528-a83c87958a1b",
+	"c9675f1b-bd76-48e6-a79f-2ba0ad9ebf3e");
+INSERT INTO DIM_WAY
+	VALUES ("c9675f1b-bd76-48e6-a79f-2ba0ad9ebf3e",
+	4025.000000,
+	3168.000000,
+	"38d82f49-70aa-447c-9adf-c13baf081732",
+	"00000000-0000-0000-0000-000000000000",
+	"c38c7448-e922-46f8-9528-a83c87958a1b");
+INSERT INTO DIM_WAY
+	VALUES ("c38c7448-e922-46f8-9528-a83c87958a1b",
+	4100.000000,
+	3168.000000,
+	"38d82f49-70aa-447c-9adf-c13baf081732",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"38d82f49-70aa-447c-9adf-c13baf081732",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("38d82f49-70aa-447c-9adf-c13baf081732",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ED
+	VALUES ("7f3a3402-db23-4e56-bcd6-6bc347980e67",
+	"00000000-0000-0000-0000-000000000000",
+	"38d82f49-70aa-447c-9adf-c13baf081732");
+INSERT INTO GD_GE
+	VALUES ("05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	"7f809d3c-e7fc-4870-b150-a3d705c43e28",
+	"3fe973c9-b1aa-417d-af6c-b97602d7092f",
+	93,
+	0,
+	'Roverplus101::Hw Library::Arduino 101 Board::Arduino 101::Port7::Power');
+INSERT INTO GD_CON
+	VALUES ("05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("ad931290-5847-4ac4-8d02-3dbb8272ed06",
+	"05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	2,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"ad931290-5847-4ac4-8d02-3dbb8272ed06");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"ad931290-5847-4ac4-8d02-3dbb8272ed06",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("ad931290-5847-4ac4-8d02-3dbb8272ed06",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("840b2822-8a5d-45e7-b03e-6b54656b8df5",
+	"05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	3,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"840b2822-8a5d-45e7-b03e-6b54656b8df5");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"840b2822-8a5d-45e7-b03e-6b54656b8df5",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("840b2822-8a5d-45e7-b03e-6b54656b8df5",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("9082256b-9072-4c3a-83df-bcd4814b7319",
+	"05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	1,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"9082256b-9072-4c3a-83df-bcd4814b7319");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"9082256b-9072-4c3a-83df-bcd4814b7319",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("9082256b-9072-4c3a-83df-bcd4814b7319",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_LS
+	VALUES ("76085579-eb68-4545-898e-cafbc93ce435",
+	"05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	"00000000-0000-0000-0000-000000000000",
+	"7964afa3-6483-4cb3-a7fa-047f92e0bf9c",
+	"951a40c6-ab57-4c5f-88c9-5404e32d93be");
+INSERT INTO DIM_WAY
+	VALUES ("951a40c6-ab57-4c5f-88c9-5404e32d93be",
+	4378.000000,
+	3612.000000,
+	"05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	"00000000-0000-0000-0000-000000000000",
+	"7964afa3-6483-4cb3-a7fa-047f92e0bf9c");
+INSERT INTO DIM_WAY
+	VALUES ("7964afa3-6483-4cb3-a7fa-047f92e0bf9c",
+	4380.000000,
+	3543.000000,
+	"05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("05c09a3e-7bbb-42b1-8962-02c2689fcd5c",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ED
+	VALUES ("d518fa19-ede1-4b48-9052-564495225ca1",
+	"00000000-0000-0000-0000-000000000000",
+	"05c09a3e-7bbb-42b1-8962-02c2689fcd5c");
+INSERT INTO GD_GE
+	VALUES ("9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	"7f809d3c-e7fc-4870-b150-a3d705c43e28",
+	"69d6d30e-92a0-4b9a-a6fb-0976e3310826",
+	93,
+	0,
+	'Roverplus101::Hw Library::Arduino 101 Board::Arduino 101::Port6::BLE');
+INSERT INTO GD_CON
+	VALUES ("9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("6102307a-b51e-4f50-8a3c-294124377586",
+	"9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	2,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"6102307a-b51e-4f50-8a3c-294124377586");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"6102307a-b51e-4f50-8a3c-294124377586",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("6102307a-b51e-4f50-8a3c-294124377586",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("6f1cc999-9f43-4647-85d5-d24aee8ab496",
+	"9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	3,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"6f1cc999-9f43-4647-85d5-d24aee8ab496");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"6f1cc999-9f43-4647-85d5-d24aee8ab496",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("6f1cc999-9f43-4647-85d5-d24aee8ab496",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("4ed58626-5cd3-4d16-93b0-d0c520970815",
+	"9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	1,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"4ed58626-5cd3-4d16-93b0-d0c520970815");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"4ed58626-5cd3-4d16-93b0-d0c520970815",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("4ed58626-5cd3-4d16-93b0-d0c520970815",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_LS
+	VALUES ("29a4296d-81bb-42eb-b620-073350a30254",
+	"9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	"00000000-0000-0000-0000-000000000000",
+	"370166d7-4fe9-4ecd-a9e5-5aa7bcdc0652",
+	"e6555cec-a05b-4c8d-92b7-8442db4b9552");
+INSERT INTO DIM_WAY
+	VALUES ("e6555cec-a05b-4c8d-92b7-8442db4b9552",
+	4025.000000,
+	3276.000000,
+	"9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	"00000000-0000-0000-0000-000000000000",
+	"370166d7-4fe9-4ecd-a9e5-5aa7bcdc0652");
+INSERT INTO DIM_WAY
+	VALUES ("370166d7-4fe9-4ecd-a9e5-5aa7bcdc0652",
+	4100.000000,
+	3276.000000,
+	"9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("9ce5092c-f86a-43a1-9cda-c27b44e27f10",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ED
+	VALUES ("cf0a9bd2-d247-4876-a48e-2d2fdaa813d0",
+	"00000000-0000-0000-0000-000000000000",
+	"9ce5092c-f86a-43a1-9cda-c27b44e27f10");
+INSERT INTO DIM_DIA
+	VALUES ("7f809d3c-e7fc-4870-b150-a3d705c43e28",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PO
+	VALUES ("6a0bf0e3-1bf1-4ef5-bf24-9c575671f5e5",
+	"09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	'Port9',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("3b3bd729-818c-4d9b-bd9a-ba72ad08b4c0",
+	"f39b4f29-c195-4a42-b053-01fb7004de75",
+	"00000000-0000-0000-0000-000000000000",
+	"6a0bf0e3-1bf1-4ef5-bf24-9c575671f5e5");
+INSERT INTO C_P
+	VALUES ("3b3bd729-818c-4d9b-bd9a-ba72ad08b4c0",
+	'Arduino 101 PinOut',
+	'Unnamed Interface',
+	'',
+	'Arduino 101::Port9::Arduino 101 PinOut');
+INSERT INTO SPR_PEP
+	VALUES ("e3282b52-4af7-4420-8258-d98f52453fbc",
+	"a57bad39-1622-46e2-8248-a8237b6b353d",
+	"3b3bd729-818c-4d9b-bd9a-ba72ad08b4c0");
+INSERT INTO SPR_PS
+	VALUES ("e3282b52-4af7-4420-8258-d98f52453fbc",
+	'DI',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("a57bad39-1622-46e2-8248-a8237b6b353d",
+	"f39b4f29-c195-4a42-b053-01fb7004de75",
+	-1,
+	'DI',
+	'',
+	'../Arduino 101 PinOut/Arduino 101 PinOut.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("afb10f3d-732d-44fc-a258-309951323c8e",
+	"785b4d69-d470-457e-a566-a44eb19e4a5f",
+	"3b3bd729-818c-4d9b-bd9a-ba72ad08b4c0");
+INSERT INTO SPR_PS
+	VALUES ("afb10f3d-732d-44fc-a258-309951323c8e",
+	'A0',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("785b4d69-d470-457e-a566-a44eb19e4a5f",
+	"f39b4f29-c195-4a42-b053-01fb7004de75",
+	-1,
+	'A0',
+	'',
+	'../Arduino 101 PinOut/Arduino 101 PinOut.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("f39b4f29-c195-4a42-b053-01fb7004de75",
+	"00000000-0000-0000-0000-000000000000",
+	'Arduino 101 PinOut',
+	'',
+	'../Arduino 101 PinOut/Arduino 101 PinOut.xtuml');
+INSERT INTO C_PO
+	VALUES ("2838a783-58de-46ba-a905-74b6f70b1aad",
+	"09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	'Port8',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("013148f6-c901-4c7b-bca5-886ef943c2ef",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	"00000000-0000-0000-0000-000000000000",
+	"2838a783-58de-46ba-a905-74b6f70b1aad");
+INSERT INTO C_P
+	VALUES ("013148f6-c901-4c7b-bca5-886ef943c2ef",
+	'Hw SW Interface',
+	'Unnamed Interface',
+	'',
+	'Arduino 101::Port8::Hw SW Interface');
+INSERT INTO SPR_PEP
+	VALUES ("0691aa7d-45f1-4058-b117-0d1560c455cb",
+	"2be33a5d-e6a8-435b-b325-e1cfe5b8fb61",
+	"013148f6-c901-4c7b-bca5-886ef943c2ef");
+INSERT INTO SPR_PO
+	VALUES ("0691aa7d-45f1-4058-b117-0d1560c455cb",
+	'micros',
+	'Returns the number of microseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 70 minutes. On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds (i.e. the value returned is always a multiple of four). On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds. 
+
+Note: there are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
+',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("2be33a5d-e6a8-435b-b325-e1cfe5b8fb61",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'micros',
+	'Returns the number of microseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 70 minutes. On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds (i.e. the value returned is always a multiple of four). On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds. 
+
+Note: there are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
+',
+	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("71a30889-f3bd-4eb4-9245-a764a0962d8a",
+	"7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce",
+	"013148f6-c901-4c7b-bca5-886ef943c2ef");
+INSERT INTO SPR_PO
+	VALUES ("71a30889-f3bd-4eb4-9245-a764a0962d8a",
+	'analogReference',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogReference',
+	'',
+	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("512c92a4-de15-4634-92d4-249e581cfd70",
+	"66a48aa8-c247-4f3c-a760-7f4da41169c3",
+	"013148f6-c901-4c7b-bca5-886ef943c2ef");
+INSERT INTO SPR_PO
+	VALUES ("512c92a4-de15-4634-92d4-249e581cfd70",
+	'pinMode',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("66a48aa8-c247-4f3c-a760-7f4da41169c3",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'pinMode',
+	'',
+	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("3a9adb1f-a0c1-49aa-9f08-2ebe853a157d",
+	"4f856ff9-c811-4cc5-a90a-f8ea836258f2",
+	"013148f6-c901-4c7b-bca5-886ef943c2ef");
+INSERT INTO SPR_PO
+	VALUES ("3a9adb1f-a0c1-49aa-9f08-2ebe853a157d",
+	'digitalRead',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4f856ff9-c811-4cc5-a90a-f8ea836258f2",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'digitalRead',
+	'',
+	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("b0c4da81-c8ea-4269-a18b-b660f2d34a07",
+	"353561d4-f8d4-4403-9e15-44a736648c4f",
+	"013148f6-c901-4c7b-bca5-886ef943c2ef");
+INSERT INTO SPR_PO
+	VALUES ("b0c4da81-c8ea-4269-a18b-b660f2d34a07",
+	'digitalWrite',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("353561d4-f8d4-4403-9e15-44a736648c4f",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'digitalWrite',
+	'',
+	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("8a092fdd-7d52-47dd-bfc4-421653ded381",
+	"1e9c908b-ef57-49ac-94f3-d1d8b6ffa046",
+	"013148f6-c901-4c7b-bca5-886ef943c2ef");
+INSERT INTO SPR_PO
+	VALUES ("8a092fdd-7d52-47dd-bfc4-421653ded381",
+	'analogRead',
+	'Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023. This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using analogReference(). 
+
+It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second. 
+',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("1e9c908b-ef57-49ac-94f3-d1d8b6ffa046",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogRead',
+	'Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023. This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using analogReference(). 
+
+It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second. 
+',
+	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("901eec66-d1e0-45d3-8482-84b30511e803",
+	"e5561ab7-e93f-4c6a-95ef-93c26d328c53",
+	"013148f6-c901-4c7b-bca5-886ef943c2ef");
+INSERT INTO SPR_PO
+	VALUES ("901eec66-d1e0-45d3-8482-84b30511e803",
+	'analogWrite',
+	'Writes an analog value (PWM wave) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to analogWrite(), the pin will generate a steady square wave of the specified duty cycle until the next call to analogWrite() (or a call to digitalRead() or digitalWrite() on the same pin). The frequency of the PWM signal on most pins is approximately 490 Hz. On the Uno and similar boards, pins 5 and 6 have a frequency of approximately 980 Hz. Pins 3 and 11 on the Leonardo also run at 980 Hz. 
+
+On most Arduino boards (those with the ATmega168 or ATmega328), this function works on pins 3, 5, 6, 9, 10, and 11. On the Arduino Mega, it works on pins 2 - 13 and 44 - 46. Older Arduino boards with an ATmega8 only support analogWrite() on pins 9, 10, and 11. 
+
+The Arduino Due supports analogWrite() on pins 2 through 13, plus pins DAC0 and DAC1. Unlike the PWM pins, DAC0 and DAC1 are Digital to Analog converters, and act as true analog outputs. 
+
+You do not need to call pinMode() to set the pin as an output before calling analogWrite(). 
+
+The analogWrite function has nothing to do with the analog pins or the analogRead function.
+',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("e5561ab7-e93f-4c6a-95ef-93c26d328c53",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogWrite',
+	'Writes an analog value (PWM wave) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to analogWrite(), the pin will generate a steady square wave of the specified duty cycle until the next call to analogWrite() (or a call to digitalRead() or digitalWrite() on the same pin). The frequency of the PWM signal on most pins is approximately 490 Hz. On the Uno and similar boards, pins 5 and 6 have a frequency of approximately 980 Hz. Pins 3 and 11 on the Leonardo also run at 980 Hz. 
+
+On most Arduino boards (those with the ATmega168 or ATmega328), this function works on pins 3, 5, 6, 9, 10, and 11. On the Arduino Mega, it works on pins 2 - 13 and 44 - 46. Older Arduino boards with an ATmega8 only support analogWrite() on pins 9, 10, and 11. 
+
+The Arduino Due supports analogWrite() on pins 2 through 13, plus pins DAC0 and DAC1. Unlike the PWM pins, DAC0 and DAC1 are Digital to Analog converters, and act as true analog outputs. 
+
+You do not need to call pinMode() to set the pin as an output before calling analogWrite(). 
+
+The analogWrite function has nothing to do with the analog pins or the analogRead function.
+',
+	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	"00000000-0000-0000-0000-000000000000",
+	'Hw SW Interface',
+	'UltraSonic
+int Echo = A0;  
+int Trig = A5; 
+//Motor Right
+int enA = 6; ////Changed from 10 to 11  Rewired. 
+int in1 = 7;
+int in2 = 8;
+//motor Left
+int enB = 5;
+int in3 = 10;
+int in4 = 11;
+int AB = 200;
+int OFF = 0;
+// Limit the Motor commands.',
+	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+INSERT INTO C_PO
+	VALUES ("d655afcd-ea4d-4195-bd37-0cc151dc17ca",
+	"09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	'Port7',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("3fe973c9-b1aa-417d-af6c-b97602d7092f",
+	"d2fd8321-e7ef-4295-b9e6-de7be368c85e",
+	"00000000-0000-0000-0000-000000000000",
+	"d655afcd-ea4d-4195-bd37-0cc151dc17ca");
+INSERT INTO C_R
+	VALUES ("3fe973c9-b1aa-417d-af6c-b97602d7092f",
+	'Power',
+	'',
+	'Unnamed Interface',
+	'Arduino 101::Port7::Power');
+INSERT INTO SPR_REP
+	VALUES ("5c847e5f-8fc6-4339-a2a1-8ae0dfb482e8",
+	"6b44fe91-1787-424d-a08e-cc9a1e05c580",
+	"3fe973c9-b1aa-417d-af6c-b97602d7092f");
+INSERT INTO SPR_RS
+	VALUES ("5c847e5f-8fc6-4339-a2a1-8ae0dfb482e8",
+	'Ground',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("6b44fe91-1787-424d-a08e-cc9a1e05c580",
+	"d2fd8321-e7ef-4295-b9e6-de7be368c85e",
+	-1,
+	'Ground',
+	'',
+	'../../Power Box/Power/Power.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("051e9f08-f017-4b6e-a2a7-d3888bb94898",
+	"7a741a39-8cc1-44ff-a824-7ad4b297dd89",
+	"3fe973c9-b1aa-417d-af6c-b97602d7092f");
+INSERT INTO SPR_RS
+	VALUES ("051e9f08-f017-4b6e-a2a7-d3888bb94898",
+	'PowerPositve',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("7a741a39-8cc1-44ff-a824-7ad4b297dd89",
+	"d2fd8321-e7ef-4295-b9e6-de7be368c85e",
+	-1,
+	'PowerPositve',
+	'',
+	'../../Power Box/Power/Power.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("d2fd8321-e7ef-4295-b9e6-de7be368c85e",
+	"00000000-0000-0000-0000-000000000000",
+	'Power',
+	'',
+	'../../Power Box/Power/Power.xtuml');
+INSERT INTO C_PO
+	VALUES ("349601db-da93-4ed0-b843-933da0eafadf",
+	"09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	'Port6',
+	0,
+	1);
+INSERT INTO C_IR
+	VALUES ("69d6d30e-92a0-4b9a-a6fb-0976e3310826",
+	"0ae94818-6565-48c1-bc8a-2cfb578484af",
+	"320c98a0-ef13-4446-902b-004572ec0a8a",
+	"349601db-da93-4ed0-b843-933da0eafadf");
+INSERT INTO C_R
+	VALUES ("69d6d30e-92a0-4b9a-a6fb-0976e3310826",
+	'BLE',
+	'',
+	'Unnamed Interface',
+	'Arduino 101::Port6::BLE');
+INSERT INTO SPR_REP
+	VALUES ("03389bac-5bed-4c9f-8edb-78f987ad6d4d",
+	"89b5d1e9-02f7-4ecc-9750-d017068c5895",
+	"69d6d30e-92a0-4b9a-a6fb-0976e3310826");
+INSERT INTO SPR_RO
+	VALUES ("03389bac-5bed-4c9f-8edb-78f987ad6d4d",
+	'rxCharacteristicWrittern',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("89b5d1e9-02f7-4ecc-9750-d017068c5895",
+	"0ae94818-6565-48c1-bc8a-2cfb578484af",
+	-1,
+	'rxCharacteristicWrittern',
+	'',
+	'../../../Interface Library/BLE/BLE.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("da9a4bcd-7ca4-4e17-b40e-e8728b4ce54a",
+	"f9cb77d7-aa52-4ffa-b3fc-fc6da2d7d786",
+	"69d6d30e-92a0-4b9a-a6fb-0976e3310826");
+INSERT INTO SPR_RO
+	VALUES ("da9a4bcd-7ca4-4e17-b40e-e8728b4ce54a",
+	'blePeripheralDisconnectHandler',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("f9cb77d7-aa52-4ffa-b3fc-fc6da2d7d786",
+	"0ae94818-6565-48c1-bc8a-2cfb578484af",
+	-1,
+	'blePeripheralDisconnectHandler',
+	'',
+	'../../../Interface Library/BLE/BLE.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("5035497e-9983-4182-931e-9d510cbbe7d3",
+	"20d1c476-9d75-4521-9152-d84a14e1e58d",
+	"69d6d30e-92a0-4b9a-a6fb-0976e3310826");
+INSERT INTO SPR_RO
+	VALUES ("5035497e-9983-4182-931e-9d510cbbe7d3",
+	'blePeripheralConnectHandler',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("20d1c476-9d75-4521-9152-d84a14e1e58d",
+	"0ae94818-6565-48c1-bc8a-2cfb578484af",
+	-1,
+	'blePeripheralConnectHandler',
+	'',
+	'../../../Interface Library/BLE/BLE.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("0ae94818-6565-48c1-bc8a-2cfb578484af",
+	"00000000-0000-0000-0000-000000000000",
+	'BLE',
+	'',
+	'../../../Interface Library/BLE/BLE.xtuml');
+INSERT INTO C_DG_PROXY
+	VALUES ("320c98a0-ef13-4446-902b-004572ec0a8a",
+	'-> Arduino 101::Port6::BLE',
+	'../../Rover/Rover.xtuml');
+INSERT INTO PE_PE
+	VALUES ("09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	1,
+	"e8bd249d-a17c-450a-9606-7bbfe9c49fb4",
+	"00000000-0000-0000-0000-000000000000",
+	2);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("e8bd249d-a17c-450a-9606-7bbfe9c49fb4",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Arduino 101 Board',
+	'',
+	0,
+	'../Arduino 101 Board.xtuml');

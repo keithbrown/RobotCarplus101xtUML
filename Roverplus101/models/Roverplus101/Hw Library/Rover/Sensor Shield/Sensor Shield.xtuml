@@ -1,0 +1,346 @@
+-- BP 7.1.6 content: Component syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_C
+	VALUES ("8cf42d90-53a9-4e24-9fb9-f16e14540fd2",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'Sensor Shield',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'');
+INSERT INTO GD_MD
+	VALUES ("80c75bad-5305-4dc5-aef3-35db831033ad",
+	111,
+	"8cf42d90-53a9-4e24-9fb9-f16e14540fd2",
+	98,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Roverplus101::Hw Library::Rover::Sensor Shield');
+INSERT INTO GD_GE
+	VALUES ("9ab5d098-93ae-40e5-95a0-3996a4137320",
+	"80c75bad-5305-4dc5-aef3-35db831033ad",
+	"8cf42d90-53a9-4e24-9fb9-f16e14540fd2",
+	103,
+	0,
+	'Roverplus101::Hw Library::Rover::Sensor Shield');
+INSERT INTO GD_SHP
+	VALUES ("9ab5d098-93ae-40e5-95a0-3996a4137320");
+INSERT INTO GD_CTR
+	VALUES ("9ab5d098-93ae-40e5-95a0-3996a4137320");
+INSERT INTO DIM_ND
+	VALUES (820.000000,
+	439.000000,
+	"9ab5d098-93ae-40e5-95a0-3996a4137320");
+INSERT INTO DIM_GE
+	VALUES (4100.000000,
+	3100.000000,
+	"9ab5d098-93ae-40e5-95a0-3996a4137320",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("9ab5d098-93ae-40e5-95a0-3996a4137320",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("80c75bad-5305-4dc5-aef3-35db831033ad",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PO
+	VALUES ("1c311307-12b5-494e-b10a-82a68e30c86e",
+	"8cf42d90-53a9-4e24-9fb9-f16e14540fd2",
+	'Port1',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("a92c2da1-8ae4-4e6a-bfab-63a1b56dab6f",
+	"98d0252c-adc9-449b-8846-157746863fd9",
+	"00000000-0000-0000-0000-000000000000",
+	"1c311307-12b5-494e-b10a-82a68e30c86e");
+INSERT INTO C_P
+	VALUES ("a92c2da1-8ae4-4e6a-bfab-63a1b56dab6f",
+	'Collision Detect Elect If',
+	'Unnamed Interface',
+	'',
+	'Sensor Shield::Port1::Collision Detect Elect If');
+INSERT INTO SPR_PEP
+	VALUES ("346cdaf8-9f51-4694-8f00-72654ebcfb75",
+	"4734b48c-df9e-4135-a4fc-dd0ca72e3a50",
+	"a92c2da1-8ae4-4e6a-bfab-63a1b56dab6f");
+INSERT INTO SPR_PS
+	VALUES ("346cdaf8-9f51-4694-8f00-72654ebcfb75",
+	'Trig',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4734b48c-df9e-4135-a4fc-dd0ca72e3a50",
+	"98d0252c-adc9-449b-8846-157746863fd9",
+	-1,
+	'Trig',
+	'',
+	'../../Collision Detect/Collision Detect Elect If/Collision Detect Elect If.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("0bd7d0ef-8790-4f6f-a1c1-84ce5e0ee935",
+	"49de8f04-0c70-45a6-aa97-d2dd89a03295",
+	"a92c2da1-8ae4-4e6a-bfab-63a1b56dab6f");
+INSERT INTO SPR_PS
+	VALUES ("0bd7d0ef-8790-4f6f-a1c1-84ce5e0ee935",
+	'Echo',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("49de8f04-0c70-45a6-aa97-d2dd89a03295",
+	"98d0252c-adc9-449b-8846-157746863fd9",
+	-1,
+	'Echo',
+	'',
+	'../../Collision Detect/Collision Detect Elect If/Collision Detect Elect If.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("ccbb102b-f271-4b83-bacb-5ff8414fa8a0",
+	"5b003912-6378-4898-ae71-cdfd5fb04bc3",
+	"a92c2da1-8ae4-4e6a-bfab-63a1b56dab6f");
+INSERT INTO SPR_PS
+	VALUES ("ccbb102b-f271-4b83-bacb-5ff8414fa8a0",
+	'Servo',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("5b003912-6378-4898-ae71-cdfd5fb04bc3",
+	"98d0252c-adc9-449b-8846-157746863fd9",
+	-1,
+	'Servo',
+	'',
+	'../../Collision Detect/Collision Detect Elect If/Collision Detect Elect If.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("98d0252c-adc9-449b-8846-157746863fd9",
+	"00000000-0000-0000-0000-000000000000",
+	'Collision Detect Elect If',
+	'',
+	'../../Collision Detect/Collision Detect Elect If/Collision Detect Elect If.xtuml');
+INSERT INTO C_PO
+	VALUES ("a6ada220-bbec-43e6-9c90-86a2dea74201",
+	"8cf42d90-53a9-4e24-9fb9-f16e14540fd2",
+	'Port2',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("08b17479-dddf-4715-9131-e966ea105a37",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	"00000000-0000-0000-0000-000000000000",
+	"a6ada220-bbec-43e6-9c90-86a2dea74201");
+INSERT INTO C_P
+	VALUES ("08b17479-dddf-4715-9131-e966ea105a37",
+	'L298N Control Signals',
+	'Unnamed Interface',
+	'',
+	'Sensor Shield::Port2::L298N Control Signals');
+INSERT INTO SPR_PEP
+	VALUES ("418ac01f-f943-4c47-9fc0-533135cce8c2",
+	"bf6c9086-9ce8-49d1-93cd-288c0fdd6c3a",
+	"08b17479-dddf-4715-9131-e966ea105a37");
+INSERT INTO SPR_PS
+	VALUES ("418ac01f-f943-4c47-9fc0-533135cce8c2",
+	'enA',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("bf6c9086-9ce8-49d1-93cd-288c0fdd6c3a",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'enA',
+	'',
+	'../../L298N Motor Drive/L298N Control Signals/L298N Control Signals.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("293afabb-2cb7-482c-9f15-51b131b6995f",
+	"544435c1-c081-48b6-a4a4-5b4ac204409e",
+	"08b17479-dddf-4715-9131-e966ea105a37");
+INSERT INTO SPR_PS
+	VALUES ("293afabb-2cb7-482c-9f15-51b131b6995f",
+	'in1',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("544435c1-c081-48b6-a4a4-5b4ac204409e",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'in1',
+	'',
+	'../../L298N Motor Drive/L298N Control Signals/L298N Control Signals.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("efde8c81-cef3-4f0d-9efd-c4072fa04bf3",
+	"2b3bb5ad-612b-4813-b4e6-67ca0428de3f",
+	"08b17479-dddf-4715-9131-e966ea105a37");
+INSERT INTO SPR_PS
+	VALUES ("efde8c81-cef3-4f0d-9efd-c4072fa04bf3",
+	'in2',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("2b3bb5ad-612b-4813-b4e6-67ca0428de3f",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'in2',
+	'',
+	'../../L298N Motor Drive/L298N Control Signals/L298N Control Signals.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("71a0e28a-ae96-4439-9f81-cd19826b6f6e",
+	"bc70ac04-add9-4118-8c47-e70fb43614a2",
+	"08b17479-dddf-4715-9131-e966ea105a37");
+INSERT INTO SPR_PS
+	VALUES ("71a0e28a-ae96-4439-9f81-cd19826b6f6e",
+	'enB',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("bc70ac04-add9-4118-8c47-e70fb43614a2",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'enB',
+	'',
+	'../../L298N Motor Drive/L298N Control Signals/L298N Control Signals.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("77038a68-8b8e-4945-b991-26dc8a440051",
+	"ec07db03-32ab-4013-b6f2-ba58341f8c5c",
+	"08b17479-dddf-4715-9131-e966ea105a37");
+INSERT INTO SPR_PS
+	VALUES ("77038a68-8b8e-4945-b991-26dc8a440051",
+	'in3',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("ec07db03-32ab-4013-b6f2-ba58341f8c5c",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'in3',
+	'',
+	'../../L298N Motor Drive/L298N Control Signals/L298N Control Signals.xtuml');
+INSERT INTO SPR_PEP
+	VALUES ("b43edf00-1151-45cc-85d4-7446667fc091",
+	"207025b7-fdd8-4a3c-beff-30ff7e3e6ff2",
+	"08b17479-dddf-4715-9131-e966ea105a37");
+INSERT INTO SPR_PS
+	VALUES ("b43edf00-1151-45cc-85d4-7446667fc091",
+	'in4',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("207025b7-fdd8-4a3c-beff-30ff7e3e6ff2",
+	"7a1846b8-1013-4947-a6cf-6524c57dd172",
+	-1,
+	'in4',
+	'',
+	'../../L298N Motor Drive/L298N Control Signals/L298N Control Signals.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("7a1846b8-1013-4947-a6cf-6524c57dd172",
+	"00000000-0000-0000-0000-000000000000",
+	'L298N Control Signals',
+	'',
+	'../../L298N Motor Drive/L298N Control Signals/L298N Control Signals.xtuml');
+INSERT INTO C_PO
+	VALUES ("b813f78d-b3c4-415b-a5b5-0520eb626c28",
+	"8cf42d90-53a9-4e24-9fb9-f16e14540fd2",
+	'Port3',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("57a31957-3e9c-40e8-bb23-ade5f21358a6",
+	"f39b4f29-c195-4a42-b053-01fb7004de75",
+	"00000000-0000-0000-0000-000000000000",
+	"b813f78d-b3c4-415b-a5b5-0520eb626c28");
+INSERT INTO C_R
+	VALUES ("57a31957-3e9c-40e8-bb23-ade5f21358a6",
+	'Arduino 101 PinOut',
+	'',
+	'Unnamed Interface',
+	'Sensor Shield::Port3::Arduino 101 PinOut');
+INSERT INTO SPR_REP
+	VALUES ("14c09a1f-6f8c-451e-b457-681366626ee3",
+	"785b4d69-d470-457e-a566-a44eb19e4a5f",
+	"57a31957-3e9c-40e8-bb23-ade5f21358a6");
+INSERT INTO SPR_RS
+	VALUES ("14c09a1f-6f8c-451e-b457-681366626ee3",
+	'A0',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("785b4d69-d470-457e-a566-a44eb19e4a5f",
+	"f39b4f29-c195-4a42-b053-01fb7004de75",
+	-1,
+	'A0',
+	'',
+	'../Arduino 101 Board/Arduino 101 PinOut/Arduino 101 PinOut.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("9f1c0bd0-e5db-4aa7-a118-7989160c8f9a",
+	"a57bad39-1622-46e2-8248-a8237b6b353d",
+	"57a31957-3e9c-40e8-bb23-ade5f21358a6");
+INSERT INTO SPR_RS
+	VALUES ("9f1c0bd0-e5db-4aa7-a118-7989160c8f9a",
+	'DI',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("a57bad39-1622-46e2-8248-a8237b6b353d",
+	"f39b4f29-c195-4a42-b053-01fb7004de75",
+	-1,
+	'DI',
+	'',
+	'../Arduino 101 Board/Arduino 101 PinOut/Arduino 101 PinOut.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("f39b4f29-c195-4a42-b053-01fb7004de75",
+	"00000000-0000-0000-0000-000000000000",
+	'Arduino 101 PinOut',
+	'',
+	'../Arduino 101 Board/Arduino 101 PinOut/Arduino 101 PinOut.xtuml');
+INSERT INTO PE_PE
+	VALUES ("8cf42d90-53a9-4e24-9fb9-f16e14540fd2",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"b770b83e-d4ed-427c-92e8-c60917133395",
+	2);
+INSERT INTO C_C_PROXY
+	VALUES ("b770b83e-d4ed-427c-92e8-c60917133395",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'Rover',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'../Rover.xtuml');

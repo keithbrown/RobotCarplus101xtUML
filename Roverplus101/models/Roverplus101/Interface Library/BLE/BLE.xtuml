@@ -1,0 +1,90 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("0ae94818-6565-48c1-bc8a-2cfb578484af",
+	"00000000-0000-0000-0000-000000000000",
+	'BLE',
+	'');
+INSERT INTO C_EP
+	VALUES ("20d1c476-9d75-4521-9152-d84a14e1e58d",
+	"0ae94818-6565-48c1-bc8a-2cfb578484af",
+	-1,
+	'blePeripheralConnectHandler',
+	'');
+INSERT INTO C_IO
+	VALUES ("20d1c476-9d75-4521-9152-d84a14e1e58d",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'blePeripheralConnectHandler',
+	'',
+	1,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PP
+	VALUES ("54b1dcc5-1d0a-4598-819d-caee16651236",
+	"20d1c476-9d75-4521-9152-d84a14e1e58d",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'central.address',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("f9cb77d7-aa52-4ffa-b3fc-fc6da2d7d786",
+	"0ae94818-6565-48c1-bc8a-2cfb578484af",
+	-1,
+	'blePeripheralDisconnectHandler',
+	'');
+INSERT INTO C_IO
+	VALUES ("f9cb77d7-aa52-4ffa-b3fc-fc6da2d7d786",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'blePeripheralDisconnectHandler',
+	'',
+	1,
+	'',
+	"20d1c476-9d75-4521-9152-d84a14e1e58d");
+INSERT INTO C_PP
+	VALUES ("921388e9-b98a-461c-90fc-068489edfb21",
+	"f9cb77d7-aa52-4ffa-b3fc-fc6da2d7d786",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'central.address',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("89b5d1e9-02f7-4ecc-9750-d017068c5895",
+	"0ae94818-6565-48c1-bc8a-2cfb578484af",
+	-1,
+	'rxCharacteristicWrittern',
+	'');
+INSERT INTO C_IO
+	VALUES ("89b5d1e9-02f7-4ecc-9750-d017068c5895",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'rxCharacteristicWrittern',
+	'',
+	1,
+	'',
+	"f9cb77d7-aa52-4ffa-b3fc-fc6da2d7d786");
+INSERT INTO C_PP
+	VALUES ("c2abffe8-e873-4304-a8a9-9c8751dbbd19",
+	"89b5d1e9-02f7-4ecc-9750-d017068c5895",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'charateristic.value',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("0ae94818-6565-48c1-bc8a-2cfb578484af",
+	1,
+	"dcacb07d-82fc-48fa-b0a4-daeae33ee0fb",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("dcacb07d-82fc-48fa-b0a4-daeae33ee0fb",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Interface Library',
+	'',
+	0,
+	'../Interface Library.xtuml');

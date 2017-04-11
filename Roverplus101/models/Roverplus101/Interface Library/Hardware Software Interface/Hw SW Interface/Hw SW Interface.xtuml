@@ -1,0 +1,243 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	"00000000-0000-0000-0000-000000000000",
+	'Hw SW Interface',
+	'UltraSonic
+int Echo = A0;  
+int Trig = A5; 
+//Motor Right
+int enA = 6; ////Changed from 10 to 11  Rewired. 
+int in1 = 7;
+int in2 = 8;
+//motor Left
+int enB = 5;
+int in3 = 10;
+int in4 = 11;
+int AB = 200;
+int OFF = 0;
+// Limit the Motor commands.');
+INSERT INTO C_EP
+	VALUES ("e5561ab7-e93f-4c6a-95ef-93c26d328c53",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogWrite',
+	'Writes an analog value (PWM wave) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to analogWrite(), the pin will generate a steady square wave of the specified duty cycle until the next call to analogWrite() (or a call to digitalRead() or digitalWrite() on the same pin). The frequency of the PWM signal on most pins is approximately 490 Hz. On the Uno and similar boards, pins 5 and 6 have a frequency of approximately 980 Hz. Pins 3 and 11 on the Leonardo also run at 980 Hz. 
+
+On most Arduino boards (those with the ATmega168 or ATmega328), this function works on pins 3, 5, 6, 9, 10, and 11. On the Arduino Mega, it works on pins 2 - 13 and 44 - 46. Older Arduino boards with an ATmega8 only support analogWrite() on pins 9, 10, and 11. 
+
+The Arduino Due supports analogWrite() on pins 2 through 13, plus pins DAC0 and DAC1. Unlike the PWM pins, DAC0 and DAC1 are Digital to Analog converters, and act as true analog outputs. 
+
+You do not need to call pinMode() to set the pin as an output before calling analogWrite(). 
+
+The analogWrite function has nothing to do with the analog pins or the analogRead function.
+');
+INSERT INTO C_IO
+	VALUES ("e5561ab7-e93f-4c6a-95ef-93c26d328c53",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'analogWrite',
+	'Writes an analog value (PWM wave) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to analogWrite(), the pin will generate a steady square wave of the specified duty cycle until the next call to analogWrite() (or a call to digitalRead() or digitalWrite() on the same pin). The frequency of the PWM signal on most pins is approximately 490 Hz. On the Uno and similar boards, pins 5 and 6 have a frequency of approximately 980 Hz. Pins 3 and 11 on the Leonardo also run at 980 Hz. 
+
+On most Arduino boards (those with the ATmega168 or ATmega328), this function works on pins 3, 5, 6, 9, 10, and 11. On the Arduino Mega, it works on pins 2 - 13 and 44 - 46. Older Arduino boards with an ATmega8 only support analogWrite() on pins 9, 10, and 11. 
+
+The Arduino Due supports analogWrite() on pins 2 through 13, plus pins DAC0 and DAC1. Unlike the PWM pins, DAC0 and DAC1 are Digital to Analog converters, and act as true analog outputs. 
+
+You do not need to call pinMode() to set the pin as an output before calling analogWrite(). 
+
+The analogWrite function has nothing to do with the analog pins or the analogRead function.
+',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PP
+	VALUES ("96989bf0-d5ee-41b1-882a-23a07a8ea5ed",
+	"e5561ab7-e93f-4c6a-95ef-93c26d328c53",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'value',
+	'',
+	0,
+	'',
+	"2e76975e-a5d9-40db-bd67-1a9cc02e8bd7");
+INSERT INTO C_PP
+	VALUES ("2e76975e-a5d9-40db-bd67-1a9cc02e8bd7",
+	"e5561ab7-e93f-4c6a-95ef-93c26d328c53",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'pin',
+	'pin: the number of the pin whose mode you wish to set ',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("1e9c908b-ef57-49ac-94f3-d1d8b6ffa046",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogRead',
+	'Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023. This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using analogReference(). 
+
+It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second. 
+');
+INSERT INTO C_IO
+	VALUES ("1e9c908b-ef57-49ac-94f3-d1d8b6ffa046",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'analogRead',
+	'Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023. This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using analogReference(). 
+
+It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second. 
+',
+	0,
+	'',
+	"e5561ab7-e93f-4c6a-95ef-93c26d328c53");
+INSERT INTO C_PP
+	VALUES ("0606d6e3-2b13-4412-ac3e-b3c221a4b63a",
+	"1e9c908b-ef57-49ac-94f3-d1d8b6ffa046",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'pin',
+	'pin: the number of the pin whose mode you wish to set ',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("353561d4-f8d4-4403-9e15-44a736648c4f",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'digitalWrite',
+	'');
+INSERT INTO C_IO
+	VALUES ("353561d4-f8d4-4403-9e15-44a736648c4f",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'digitalWrite',
+	'',
+	0,
+	'',
+	"1e9c908b-ef57-49ac-94f3-d1d8b6ffa046");
+INSERT INTO C_PP
+	VALUES ("3ef28037-982a-4d8b-8ec4-317b361fd73b",
+	"353561d4-f8d4-4403-9e15-44a736648c4f",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'pin',
+	'pin: the number of the pin whose mode you wish to set ',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PP
+	VALUES ("a3cd7ee7-95d2-47c8-a155-34bdbca22c96",
+	"353561d4-f8d4-4403-9e15-44a736648c4f",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'value',
+	'',
+	0,
+	'',
+	"3ef28037-982a-4d8b-8ec4-317b361fd73b");
+INSERT INTO C_EP
+	VALUES ("4f856ff9-c811-4cc5-a90a-f8ea836258f2",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'digitalRead',
+	'');
+INSERT INTO C_IO
+	VALUES ("4f856ff9-c811-4cc5-a90a-f8ea836258f2",
+	"ba5eda7a-def5-0000-0000-000000000001",
+	'digitalRead',
+	'',
+	0,
+	'',
+	"353561d4-f8d4-4403-9e15-44a736648c4f");
+INSERT INTO C_PP
+	VALUES ("8f18342f-06ca-4a0b-abb8-bd5c159a9572",
+	"4f856ff9-c811-4cc5-a90a-f8ea836258f2",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'pin',
+	'pin: the number of the pin whose mode you wish to set ',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("66a48aa8-c247-4f3c-a760-7f4da41169c3",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'pinMode',
+	'');
+INSERT INTO C_IO
+	VALUES ("66a48aa8-c247-4f3c-a760-7f4da41169c3",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'pinMode',
+	'',
+	0,
+	'',
+	"4f856ff9-c811-4cc5-a90a-f8ea836258f2");
+INSERT INTO C_PP
+	VALUES ("a871be28-d73c-4620-9dd6-a2b84e57322f",
+	"66a48aa8-c247-4f3c-a760-7f4da41169c3",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'pin',
+	'pin: the number of the pin whose mode you wish to set ',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PP
+	VALUES ("9b2c6451-2051-4872-8f4c-4c41cf47a0db",
+	"66a48aa8-c247-4f3c-a760-7f4da41169c3",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'mode',
+	'mode: INPUT, OUTPUT, or INPUT_PULLUP. (see the digital pins page for a more complete description of the functionality.) ',
+	0,
+	'',
+	"a871be28-d73c-4620-9dd6-a2b84e57322f");
+INSERT INTO C_EP
+	VALUES ("7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogReference',
+	'');
+INSERT INTO C_IO
+	VALUES ("7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'analogReference',
+	'',
+	0,
+	'',
+	"66a48aa8-c247-4f3c-a760-7f4da41169c3");
+INSERT INTO C_PP
+	VALUES ("6b3de796-740c-4a5c-a2a0-bf2be42b6d94",
+	"7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'type',
+	'type: which type of reference to use (DEFAULT, INTERNAL, INTERNAL1V1, INTERNAL2V56, or EXTERNAL).',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("2be33a5d-e6a8-435b-b325-e1cfe5b8fb61",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'micros',
+	'Returns the number of microseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 70 minutes. On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds (i.e. the value returned is always a multiple of four). On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds. 
+
+Note: there are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
+');
+INSERT INTO C_IO
+	VALUES ("2be33a5d-e6a8-435b-b325-e1cfe5b8fb61",
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'micros',
+	'Returns the number of microseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 70 minutes. On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds (i.e. the value returned is always a multiple of four). On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds. 
+
+Note: there are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
+',
+	0,
+	'',
+	"7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce");
+INSERT INTO PE_PE
+	VALUES ("a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	1,
+	"d2fa38a7-50a0-4594-8965-fb2ab65ae8d0",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("d2fa38a7-50a0-4594-8965-fb2ab65ae8d0",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Hardware Software Interface',
+	'',
+	0,
+	'../Hardware Software Interface.xtuml');

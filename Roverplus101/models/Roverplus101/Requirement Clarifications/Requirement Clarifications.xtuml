@@ -1,0 +1,46 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("8d8749fe-ff03-4ba7-a09b-d28aaa2171f9",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Requirement Clarifications',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("586de713-d9da-4420-ba78-49c8383246a2",
+	112,
+	"8d8749fe-ff03-4ba7-a09b-d28aaa2171f9",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Roverplus101::Requirement Clarifications');
+INSERT INTO DIM_DIA
+	VALUES ("586de713-d9da-4420-ba78-49c8383246a2",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("8d8749fe-ff03-4ba7-a09b-d28aaa2171f9",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Roverplus101',
+	1,
+	'../Roverplus101.xtuml');

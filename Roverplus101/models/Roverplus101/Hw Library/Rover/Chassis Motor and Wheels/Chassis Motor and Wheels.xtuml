@@ -1,0 +1,219 @@
+-- BP 7.1.6 content: Component syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_C
+	VALUES ("683d98ea-dfc0-4403-b340-8cde020824cc",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'Chassis Motor and Wheels',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'');
+INSERT INTO GD_MD
+	VALUES ("b5753eda-4d47-409f-8633-d8dcdd4c4cde",
+	111,
+	"683d98ea-dfc0-4403-b340-8cde020824cc",
+	98,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Roverplus101::Hw Library::Rover::Chassis Motor and Wheels');
+INSERT INTO GD_GE
+	VALUES ("ec79bc30-269a-4775-9a7e-e8bf8c62aadc",
+	"b5753eda-4d47-409f-8633-d8dcdd4c4cde",
+	"683d98ea-dfc0-4403-b340-8cde020824cc",
+	103,
+	0,
+	'Roverplus101::Hw Library::Rover::Chassis Motor and Wheels');
+INSERT INTO GD_SHP
+	VALUES ("ec79bc30-269a-4775-9a7e-e8bf8c62aadc");
+INSERT INTO GD_CTR
+	VALUES ("ec79bc30-269a-4775-9a7e-e8bf8c62aadc");
+INSERT INTO DIM_ND
+	VALUES (820.000000,
+	439.000000,
+	"ec79bc30-269a-4775-9a7e-e8bf8c62aadc");
+INSERT INTO DIM_GE
+	VALUES (4100.000000,
+	3100.000000,
+	"ec79bc30-269a-4775-9a7e-e8bf8c62aadc",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("ec79bc30-269a-4775-9a7e-e8bf8c62aadc",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("b5753eda-4d47-409f-8633-d8dcdd4c4cde",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PO
+	VALUES ("40d9460b-2739-45d4-bbf2-8a9bf0ef1b28",
+	"683d98ea-dfc0-4403-b340-8cde020824cc",
+	'Port1',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("202ecd7c-f0e3-4654-9ae3-058a82573d69",
+	"074c79ac-14f7-449c-ba6c-a316c852b659",
+	"1fef628e-f858-4a82-ac25-784a5c0f96eb",
+	"40d9460b-2739-45d4-bbf2-8a9bf0ef1b28");
+INSERT INTO C_R
+	VALUES ("202ecd7c-f0e3-4654-9ae3-058a82573d69",
+	'DrivingSurface',
+	'',
+	'Unnamed Interface',
+	'Chassis Motor and Wheels::Port1::DrivingSurface');
+INSERT INTO SPR_REP
+	VALUES ("2270c82b-f318-48c1-b2d5-0351e286d498",
+	"70f0b9fd-f748-4d81-86e5-92887c5ff3d0",
+	"202ecd7c-f0e3-4654-9ae3-058a82573d69");
+INSERT INTO SPR_RS
+	VALUES ("2270c82b-f318-48c1-b2d5-0351e286d498",
+	'Incline',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("70f0b9fd-f748-4d81-86e5-92887c5ff3d0",
+	"074c79ac-14f7-449c-ba6c-a316c852b659",
+	-1,
+	'Incline',
+	'',
+	'../../../Interface Library/DrivingSurface/DrivingSurface.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("6c8c218a-c852-49f0-acb8-c9a7c232b083",
+	"d5362169-0d4c-47d4-bd5b-44cd40bb1075",
+	"202ecd7c-f0e3-4654-9ae3-058a82573d69");
+INSERT INTO SPR_RS
+	VALUES ("6c8c218a-c852-49f0-acb8-c9a7c232b083",
+	'SideSlope',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("d5362169-0d4c-47d4-bd5b-44cd40bb1075",
+	"074c79ac-14f7-449c-ba6c-a316c852b659",
+	-1,
+	'SideSlope',
+	'',
+	'../../../Interface Library/DrivingSurface/DrivingSurface.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("5506b600-d061-404c-b0df-cff9d7c1fd78",
+	"b46e6b73-b7f2-421d-9d18-2fa7cd28dcb9",
+	"202ecd7c-f0e3-4654-9ae3-058a82573d69");
+INSERT INTO SPR_RS
+	VALUES ("5506b600-d061-404c-b0df-cff9d7c1fd78",
+	'Material',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("b46e6b73-b7f2-421d-9d18-2fa7cd28dcb9",
+	"074c79ac-14f7-449c-ba6c-a316c852b659",
+	-1,
+	'Material',
+	'',
+	'../../../Interface Library/DrivingSurface/DrivingSurface.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("074c79ac-14f7-449c-ba6c-a316c852b659",
+	"00000000-0000-0000-0000-000000000000",
+	'DrivingSurface',
+	'',
+	'../../../Interface Library/DrivingSurface/DrivingSurface.xtuml');
+INSERT INTO C_DG_PROXY
+	VALUES ("1fef628e-f858-4a82-ac25-784a5c0f96eb",
+	'-> Chassis Motor and Wheels::Port1::DrivingSurface',
+	'../Rover.xtuml');
+INSERT INTO C_PO
+	VALUES ("9f70f911-bd8b-44eb-9473-ce5fd3bb15c3",
+	"683d98ea-dfc0-4403-b340-8cde020824cc",
+	'Port2',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("447e6c1f-76d7-48e8-896e-8eaba665f4eb",
+	"41a1b624-545c-41a6-9a59-9e1d7da8410c",
+	"00000000-0000-0000-0000-000000000000",
+	"9f70f911-bd8b-44eb-9473-ce5fd3bb15c3");
+INSERT INTO C_R
+	VALUES ("447e6c1f-76d7-48e8-896e-8eaba665f4eb",
+	'L298N Drive Signals',
+	'',
+	'Unnamed Interface',
+	'Chassis Motor and Wheels::Port2::L298N Drive Signals');
+INSERT INTO SPR_REP
+	VALUES ("deac9622-ec53-495f-9cd2-2aaf8c15b52c",
+	"4faec09c-d19a-4121-a698-49b7f9148f81",
+	"447e6c1f-76d7-48e8-896e-8eaba665f4eb");
+INSERT INTO SPR_RS
+	VALUES ("deac9622-ec53-495f-9cd2-2aaf8c15b52c",
+	'leftMotor',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4faec09c-d19a-4121-a698-49b7f9148f81",
+	"41a1b624-545c-41a6-9a59-9e1d7da8410c",
+	-1,
+	'leftMotor',
+	'',
+	'../../L298N Motor Drive/L298N Drive Signals/L298N Drive Signals.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("1b94636b-bd6c-4635-aefb-c6b6499bf913",
+	"58d178dc-1c3e-4b78-a397-84311c57263b",
+	"447e6c1f-76d7-48e8-896e-8eaba665f4eb");
+INSERT INTO SPR_RS
+	VALUES ("1b94636b-bd6c-4635-aefb-c6b6499bf913",
+	'rightMotor',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("58d178dc-1c3e-4b78-a397-84311c57263b",
+	"41a1b624-545c-41a6-9a59-9e1d7da8410c",
+	-1,
+	'rightMotor',
+	'',
+	'../../L298N Motor Drive/L298N Drive Signals/L298N Drive Signals.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("41a1b624-545c-41a6-9a59-9e1d7da8410c",
+	"00000000-0000-0000-0000-000000000000",
+	'L298N Drive Signals',
+	'',
+	'../../L298N Motor Drive/L298N Drive Signals/L298N Drive Signals.xtuml');
+INSERT INTO PE_PE
+	VALUES ("683d98ea-dfc0-4403-b340-8cde020824cc",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"b770b83e-d4ed-427c-92e8-c60917133395",
+	2);
+INSERT INTO C_C_PROXY
+	VALUES ("b770b83e-d4ed-427c-92e8-c60917133395",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	'Rover',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'../Rover.xtuml');

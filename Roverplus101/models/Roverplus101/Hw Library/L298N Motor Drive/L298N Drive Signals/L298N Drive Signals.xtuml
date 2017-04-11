@@ -1,0 +1,45 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("41a1b624-545c-41a6-9a59-9e1d7da8410c",
+	"00000000-0000-0000-0000-000000000000",
+	'L298N Drive Signals',
+	'');
+INSERT INTO C_EP
+	VALUES ("4faec09c-d19a-4121-a698-49b7f9148f81",
+	"41a1b624-545c-41a6-9a59-9e1d7da8410c",
+	-1,
+	'leftMotor',
+	'');
+INSERT INTO C_AS
+	VALUES ("4faec09c-d19a-4121-a698-49b7f9148f81",
+	'leftMotor',
+	'',
+	1,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("58d178dc-1c3e-4b78-a397-84311c57263b",
+	"41a1b624-545c-41a6-9a59-9e1d7da8410c",
+	-1,
+	'rightMotor',
+	'');
+INSERT INTO C_AS
+	VALUES ("58d178dc-1c3e-4b78-a397-84311c57263b",
+	'rightMotor',
+	'',
+	1,
+	"4faec09c-d19a-4121-a698-49b7f9148f81");
+INSERT INTO PE_PE
+	VALUES ("41a1b624-545c-41a6-9a59-9e1d7da8410c",
+	1,
+	"54eb4140-3df2-4d3e-a6de-6fc18bfeb16d",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("54eb4140-3df2-4d3e-a6de-6fc18bfeb16d",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'L298N Motor Drive',
+	'',
+	0,
+	'../L298N Motor Drive.xtuml');

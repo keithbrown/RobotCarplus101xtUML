@@ -1,0 +1,78 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("d2fa38a7-50a0-4594-8965-fb2ab65ae8d0",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Hardware Software Interface',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("f0f05b44-1381-451f-b341-a702f984b62a",
+	112,
+	"d2fa38a7-50a0-4594-8965-fb2ab65ae8d0",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'Roverplus101::Interface Library::Hardware Software Interface');
+INSERT INTO GD_GE
+	VALUES ("c61e4352-e8d2-402a-9e38-ec8eddbc5085",
+	"f0f05b44-1381-451f-b341-a702f984b62a",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	96,
+	0,
+	'Roverplus101::Interface Library::Hardware Software Interface::Hw SW Interface');
+INSERT INTO GD_SHP
+	VALUES ("c61e4352-e8d2-402a-9e38-ec8eddbc5085");
+INSERT INTO GD_NCS
+	VALUES ("c61e4352-e8d2-402a-9e38-ec8eddbc5085");
+INSERT INTO DIM_ND
+	VALUES (337.000000,
+	169.000000,
+	"c61e4352-e8d2-402a-9e38-ec8eddbc5085");
+INSERT INTO DIM_GE
+	VALUES (4539.000000,
+	3432.000000,
+	"c61e4352-e8d2-402a-9e38-ec8eddbc5085",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("c61e4352-e8d2-402a-9e38-ec8eddbc5085",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("f0f05b44-1381-451f-b341-a702f984b62a",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("d2fa38a7-50a0-4594-8965-fb2ab65ae8d0",
+	1,
+	"dcacb07d-82fc-48fa-b0a4-daeae33ee0fb",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("dcacb07d-82fc-48fa-b0a4-daeae33ee0fb",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Interface Library',
+	'',
+	0,
+	'../Interface Library.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Roverplus101',
+	1,
+	'../../Roverplus101.xtuml');

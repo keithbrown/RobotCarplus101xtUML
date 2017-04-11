@@ -1,0 +1,57 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("98d0252c-adc9-449b-8846-157746863fd9",
+	"00000000-0000-0000-0000-000000000000",
+	'Collision Detect Elect If',
+	'');
+INSERT INTO C_EP
+	VALUES ("4734b48c-df9e-4135-a4fc-dd0ca72e3a50",
+	"98d0252c-adc9-449b-8846-157746863fd9",
+	-1,
+	'Trig',
+	'');
+INSERT INTO C_AS
+	VALUES ("4734b48c-df9e-4135-a4fc-dd0ca72e3a50",
+	'Trig',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("49de8f04-0c70-45a6-aa97-d2dd89a03295",
+	"98d0252c-adc9-449b-8846-157746863fd9",
+	-1,
+	'Echo',
+	'');
+INSERT INTO C_AS
+	VALUES ("49de8f04-0c70-45a6-aa97-d2dd89a03295",
+	'Echo',
+	'',
+	0,
+	"4734b48c-df9e-4135-a4fc-dd0ca72e3a50");
+INSERT INTO C_EP
+	VALUES ("5b003912-6378-4898-ae71-cdfd5fb04bc3",
+	"98d0252c-adc9-449b-8846-157746863fd9",
+	-1,
+	'Servo',
+	'');
+INSERT INTO C_AS
+	VALUES ("5b003912-6378-4898-ae71-cdfd5fb04bc3",
+	'Servo',
+	'',
+	0,
+	"49de8f04-0c70-45a6-aa97-d2dd89a03295");
+INSERT INTO PE_PE
+	VALUES ("98d0252c-adc9-449b-8846-157746863fd9",
+	1,
+	"e2abb242-2ff8-43af-a81f-cc7309b21adc",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("e2abb242-2ff8-43af-a81f-cc7309b21adc",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Collision Detect',
+	'',
+	0,
+	'../Collision Detect.xtuml');
