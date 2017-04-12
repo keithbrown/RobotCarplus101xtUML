@@ -1,0 +1,32 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("e3b1c65d-8a4f-4273-8aa9-e2d73de87fe1",
+	'BLEService',
+	6,
+	'BLEService',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_ID
+	VALUES (0,
+	"e3b1c65d-8a4f-4273-8aa9-e2d73de87fe1");
+INSERT INTO O_ID
+	VALUES (1,
+	"e3b1c65d-8a4f-4273-8aa9-e2d73de87fe1");
+INSERT INTO O_ID
+	VALUES (2,
+	"e3b1c65d-8a4f-4273-8aa9-e2d73de87fe1");
+INSERT INTO PE_PE
+	VALUES ("e3b1c65d-8a4f-4273-8aa9-e2d73de87fe1",
+	1,
+	"804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Application Software',
+	'',
+	0,
+	'../Application Software.xtuml');
