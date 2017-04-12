@@ -1,0 +1,69 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("181ce347-11a7-4d57-9972-55b294ec1f49",
+	'MotorDrive',
+	1,
+	'MotorDrive',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("b5e920fd-2572-4175-9014-265f16eec643",
+	"181ce347-11a7-4d57-9972-55b294ec1f49",
+	'_MDrive',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("bac57a6a-f125-4a68-a70a-7dfc809157d9",
+	"b5e920fd-2572-4175-9014-265f16eec643",
+	'MotorRight',
+	"6b22f902-f603-4abc-877c-c345e8635a09",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("6b22f902-f603-4abc-877c-c345e8635a09",
+	"00000000-0000-0000-0000-000000000000",
+	'motorDrive',
+	'Value from 0-256',
+	'0',
+	'../SW Library.xtuml');
+INSERT INTO O_TPARM
+	VALUES ("8ca4ab52-e28a-406c-ac60-4b46aef8e2fe",
+	"b5e920fd-2572-4175-9014-265f16eec643",
+	'MotorLeft',
+	"6b22f902-f603-4abc-877c-c345e8635a09",
+	0,
+	'',
+	"bac57a6a-f125-4a68-a70a-7dfc809157d9",
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"181ce347-11a7-4d57-9972-55b294ec1f49");
+INSERT INTO O_ID
+	VALUES (1,
+	"181ce347-11a7-4d57-9972-55b294ec1f49");
+INSERT INTO O_ID
+	VALUES (2,
+	"181ce347-11a7-4d57-9972-55b294ec1f49");
+INSERT INTO PE_PE
+	VALUES ("181ce347-11a7-4d57-9972-55b294ec1f49",
+	1,
+	"afb20334-dbad-45c3-bce3-13f733d0f057",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("afb20334-dbad-45c3-bce3-13f733d0f057",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'SW Library',
+	'',
+	0,
+	'../SW Library.xtuml');

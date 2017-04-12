@@ -3,7 +3,7 @@
 INSERT INTO C_I
 	VALUES ("a38e3279-215b-448e-8d22-2c95a8ce6ea2",
 	"00000000-0000-0000-0000-000000000000",
-	'Hw SW Interface',
+	'Hw SW Pin Interfaces',
 	'UltraSonic
 int Echo = A0;  
 int Trig = A5; 

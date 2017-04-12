@@ -1,0 +1,33 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	"00000000-0000-0000-0000-000000000000",
+	'BLE HW SW',
+	'');
+INSERT INTO C_EP
+	VALUES ("eef75db5-5c22-4959-9281-072e8e0a4d4d",
+	"45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	-1,
+	'BLEHardware',
+	'');
+INSERT INTO C_AS
+	VALUES ("eef75db5-5c22-4959-9281-072e8e0a4d4d",
+	'BLEHardware',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	1,
+	"d2fa38a7-50a0-4594-8965-fb2ab65ae8d0",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("d2fa38a7-50a0-4594-8965-fb2ab65ae8d0",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Hardware Software Interface',
+	'',
+	0,
+	'../Hardware Software Interface.xtuml');

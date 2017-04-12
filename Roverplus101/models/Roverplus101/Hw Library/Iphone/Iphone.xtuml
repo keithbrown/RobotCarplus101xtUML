@@ -201,7 +201,8 @@ INSERT INTO SPR_PO
 	'blePeripheralConnectHandler',
 	'',
 	'',
-	3);
+	3,
+	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("20d1c476-9d75-4521-9152-d84a14e1e58d",
 	"0ae94818-6565-48c1-bc8a-2cfb578484af",
@@ -218,7 +219,8 @@ INSERT INTO SPR_PO
 	'blePeripheralDisconnectHandler',
 	'',
 	'',
-	3);
+	3,
+	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("f9cb77d7-aa52-4ffa-b3fc-fc6da2d7d786",
 	"0ae94818-6565-48c1-bc8a-2cfb578484af",
@@ -235,7 +237,8 @@ INSERT INTO SPR_PO
 	'rxCharacteristicWrittern',
 	'',
 	'',
-	3);
+	3,
+	0);
 INSERT INTO C_EP_PROXY
 	VALUES ("89b5d1e9-02f7-4ecc-9750-d017068c5895",
 	"0ae94818-6565-48c1-bc8a-2cfb578484af",

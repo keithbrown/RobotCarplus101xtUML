@@ -189,7 +189,7 @@ INSERT INTO GD_GE
 	"013148f6-c901-4c7b-bca5-886ef943c2ef",
 	94,
 	0,
-	'Roverplus101::Hw Library::Arduino 101 Board::Arduino 101::Port8::Hw SW Interface');
+	'Roverplus101::Hw Library::Arduino 101 Board::Arduino 101::Port8::Hw SW Pin Interfaces');
 INSERT INTO GD_CON
 	VALUES ("38d82f49-70aa-447c-9adf-c13baf081732",
 	"00000000-0000-0000-0000-000000000000");
@@ -562,10 +562,10 @@ INSERT INTO C_IR
 	"2838a783-58de-46ba-a905-74b6f70b1aad");
 INSERT INTO C_P
 	VALUES ("013148f6-c901-4c7b-bca5-886ef943c2ef",
-	'Hw SW Interface',
+	'Hw SW Pin Interfaces',
 	'Unnamed Interface',
 	'',
-	'Arduino 101::Port8::Hw SW Interface');
+	'Arduino 101::Port8::Hw SW Pin Interfaces');
 INSERT INTO SPR_PEP
 	VALUES ("0691aa7d-45f1-4058-b117-0d1560c455cb",
 	"2be33a5d-e6a8-435b-b325-e1cfe5b8fb61",
@@ -589,7 +589,7 @@ INSERT INTO C_EP_PROXY
 
 Note: there are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
 ',
-	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+	'../../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
 INSERT INTO SPR_PEP
 	VALUES ("71a30889-f3bd-4eb4-9245-a764a0962d8a",
 	"7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce",
@@ -607,7 +607,7 @@ INSERT INTO C_EP_PROXY
 	-1,
 	'analogReference',
 	'',
-	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+	'../../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
 INSERT INTO SPR_PEP
 	VALUES ("512c92a4-de15-4634-92d4-249e581cfd70",
 	"66a48aa8-c247-4f3c-a760-7f4da41169c3",
@@ -625,7 +625,7 @@ INSERT INTO C_EP_PROXY
 	-1,
 	'pinMode',
 	'',
-	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+	'../../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
 INSERT INTO SPR_PEP
 	VALUES ("3a9adb1f-a0c1-49aa-9f08-2ebe853a157d",
 	"4f856ff9-c811-4cc5-a90a-f8ea836258f2",
@@ -643,7 +643,7 @@ INSERT INTO C_EP_PROXY
 	-1,
 	'digitalRead',
 	'',
-	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+	'../../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
 INSERT INTO SPR_PEP
 	VALUES ("b0c4da81-c8ea-4269-a18b-b660f2d34a07",
 	"353561d4-f8d4-4403-9e15-44a736648c4f",
@@ -661,7 +661,7 @@ INSERT INTO C_EP_PROXY
 	-1,
 	'digitalWrite',
 	'',
-	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+	'../../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
 INSERT INTO SPR_PEP
 	VALUES ("8a092fdd-7d52-47dd-bfc4-421653ded381",
 	"1e9c908b-ef57-49ac-94f3-d1d8b6ffa046",
@@ -685,7 +685,7 @@ INSERT INTO C_EP_PROXY
 
 It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second. 
 ',
-	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+	'../../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
 INSERT INTO SPR_PEP
 	VALUES ("901eec66-d1e0-45d3-8482-84b30511e803",
 	"e5561ab7-e93f-4c6a-95ef-93c26d328c53",
@@ -721,11 +721,11 @@ You do not need to call pinMode() to set the pin as an output before calling ana
 
 The analogWrite function has nothing to do with the analog pins or the analogRead function.
 ',
-	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+	'../../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("a38e3279-215b-448e-8d22-2c95a8ce6ea2",
 	"00000000-0000-0000-0000-000000000000",
-	'Hw SW Interface',
+	'Hw SW Pin Interfaces',
 	'UltraSonic
 int Echo = A0;  
 int Trig = A5; 
@@ -740,7 +740,7 @@ int in4 = 11;
 int AB = 200;
 int OFF = 0;
 // Limit the Motor commands.',
-	'../../../Interface Library/Hardware Software Interface/Hw SW Interface/Hw SW Interface.xtuml');
+	'../../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
 INSERT INTO C_PO
 	VALUES ("d655afcd-ea4d-4195-bd37-0cc151dc17ca",
 	"09592909-1f6e-4136-9ac0-ef8f838fcd2a",

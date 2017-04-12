@@ -1,0 +1,44 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("efbdea4d-82a5-4085-829a-c540ea0bbd81",
+	'BLECharacteristic',
+	7,
+	'BLECharacteristic',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("fdb775bd-4b17-44c6-a7f9-fa0988757d47",
+	"efbdea4d-82a5-4085-829a-c540ea0bbd81",
+	'setEventHandler',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0);
+INSERT INTO O_ID
+	VALUES (0,
+	"efbdea4d-82a5-4085-829a-c540ea0bbd81");
+INSERT INTO O_ID
+	VALUES (1,
+	"efbdea4d-82a5-4085-829a-c540ea0bbd81");
+INSERT INTO O_ID
+	VALUES (2,
+	"efbdea4d-82a5-4085-829a-c540ea0bbd81");
+INSERT INTO PE_PE
+	VALUES ("efbdea4d-82a5-4085-829a-c540ea0bbd81",
+	1,
+	"804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Application Software',
+	'',
+	0,
+	'../Application Software.xtuml');

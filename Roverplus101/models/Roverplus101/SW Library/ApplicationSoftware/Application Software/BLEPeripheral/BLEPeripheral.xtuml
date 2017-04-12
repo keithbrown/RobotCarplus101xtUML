@@ -1,0 +1,92 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	'BLEPeripheral',
+	5,
+	'BLEPeripheral',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("441030d8-eff1-4d15-96ca-ae4c6c233996",
+	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	'setLocalName',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0);
+INSERT INTO O_TFR
+	VALUES ("f59488a3-3c8e-41f5-8db6-620112365fa8",
+	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	'setAdvertisedServiceUuid',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"441030d8-eff1-4d15-96ca-ae4c6c233996",
+	0);
+INSERT INTO O_TFR
+	VALUES ("df7564b8-375a-474f-9c57-cc4e406c1638",
+	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	'addAttribute',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"f59488a3-3c8e-41f5-8db6-620112365fa8",
+	0);
+INSERT INTO O_TFR
+	VALUES ("5df087f8-569a-4524-995b-8b467547888c",
+	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	'setEventHandler',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"df7564b8-375a-474f-9c57-cc4e406c1638",
+	0);
+INSERT INTO O_TFR
+	VALUES ("ee41b559-4f2b-4f63-8ec6-911a78e189ac",
+	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	'begin',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"5df087f8-569a-4524-995b-8b467547888c",
+	0);
+INSERT INTO O_ID
+	VALUES (0,
+	"e49a119f-63d1-48e7-9b42-067a9d49cd09");
+INSERT INTO O_ID
+	VALUES (1,
+	"e49a119f-63d1-48e7-9b42-067a9d49cd09");
+INSERT INTO O_ID
+	VALUES (2,
+	"e49a119f-63d1-48e7-9b42-067a9d49cd09");
+INSERT INTO PE_PE
+	VALUES ("e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	1,
+	"804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Application Software',
+	'',
+	0,
+	'../Application Software.xtuml');
