@@ -809,7 +809,7 @@ INSERT INTO C_PO
 INSERT INTO C_IR
 	VALUES ("69d6d30e-92a0-4b9a-a6fb-0976e3310826",
 	"0ae94818-6565-48c1-bc8a-2cfb578484af",
-	"320c98a0-ef13-4446-902b-004572ec0a8a",
+	"00000000-0000-0000-0000-000000000000",
 	"349601db-da93-4ed0-b843-933da0eafadf");
 INSERT INTO C_R
 	VALUES ("69d6d30e-92a0-4b9a-a6fb-0976e3310826",
@@ -877,10 +877,47 @@ INSERT INTO C_I_PROXY
 	'BLE',
 	'',
 	'../../../Interface Library/BLE/BLE.xtuml');
-INSERT INTO C_DG_PROXY
-	VALUES ("320c98a0-ef13-4446-902b-004572ec0a8a",
-	'-> Arduino 101::Port6::BLE',
-	'../../Rover/Rover.xtuml');
+INSERT INTO C_PO
+	VALUES ("582fcb13-77aa-4cc6-b44b-96d380ce0560",
+	"09592909-1f6e-4136-9ac0-ef8f838fcd2a",
+	'Port1',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("e4661bfe-c53b-4a71-87fe-20751e5b920f",
+	"45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	"00000000-0000-0000-0000-000000000000",
+	"582fcb13-77aa-4cc6-b44b-96d380ce0560");
+INSERT INTO C_P
+	VALUES ("e4661bfe-c53b-4a71-87fe-20751e5b920f",
+	'BLE HW SW',
+	'Unnamed Interface',
+	'',
+	'Arduino 101::Port1::BLE HW SW');
+INSERT INTO SPR_PEP
+	VALUES ("0c66ba52-664d-4d64-9b4e-8919ed717d05",
+	"eef75db5-5c22-4959-9281-072e8e0a4d4d",
+	"e4661bfe-c53b-4a71-87fe-20751e5b920f");
+INSERT INTO SPR_PS
+	VALUES ("0c66ba52-664d-4d64-9b4e-8919ed717d05",
+	'BLEHardware',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("eef75db5-5c22-4959-9281-072e8e0a4d4d",
+	"45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	-1,
+	'BLEHardware',
+	'',
+	'../../../Interface Library/Hardware Software Interface/BLE HW SW/BLE HW SW.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	"00000000-0000-0000-0000-000000000000",
+	'BLE HW SW',
+	'',
+	'../../../Interface Library/Hardware Software Interface/BLE HW SW/BLE HW SW.xtuml');
 INSERT INTO PE_PE
 	VALUES ("09592909-1f6e-4136-9ac0-ef8f838fcd2a",
 	1,

@@ -41,8 +41,8 @@ INSERT INTO GD_SHP
 INSERT INTO GD_CTR
 	VALUES ("bc058a33-789f-4562-980e-703338bfb364");
 INSERT INTO DIM_ND
-	VALUES (337.000000,
-	193.000000,
+	VALUES (421.000000,
+	277.000000,
 	"bc058a33-789f-4562-980e-703338bfb364");
 INSERT INTO DIM_GE
 	VALUES (4044.000000,
@@ -62,6 +62,16 @@ INSERT INTO DIM_CON
 	VALUES ("396a0a27-21a5-42e3-819f-4a03b3bf82d3",
 	4912.000000,
 	3300.000000,
+	"bc058a33-789f-4562-980e-703338bfb364");
+INSERT INTO DIM_CON
+	VALUES ("0fc565f1-e023-4738-8618-425d60f3f6a4",
+	4465.000000,
+	3240.000000,
+	"bc058a33-789f-4562-980e-703338bfb364");
+INSERT INTO DIM_CON
+	VALUES ("b3336ba6-6c1b-45ad-94e7-0352c7c434f7",
+	4465.000000,
+	3312.000000,
 	"bc058a33-789f-4562-980e-703338bfb364");
 INSERT INTO GD_GE
 	VALUES ("410d4fd9-7685-44a9-916f-e50122eeef52",
@@ -87,6 +97,206 @@ INSERT INTO DIM_ELE
 	VALUES ("410d4fd9-7685-44a9-916f-e50122eeef52",
 	0,
 	"bc058a33-789f-4562-980e-703338bfb364");
+INSERT INTO GD_GE
+	VALUES ("3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	"8c6869c7-7c33-4796-9619-95c30b5bd2c5",
+	"b2a08141-2b54-4850-9e02-ddeac918c1f7",
+	93,
+	0,
+	'Roverplus101::SW Library::ApplicationSoftware::Port1::Hw SW Pin Interfaces');
+INSERT INTO GD_CON
+	VALUES ("3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("21227eed-b8e5-4007-8d26-069c34aa7956",
+	"3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	1,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"21227eed-b8e5-4007-8d26-069c34aa7956");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"21227eed-b8e5-4007-8d26-069c34aa7956",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("21227eed-b8e5-4007-8d26-069c34aa7956",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("5a21b9e6-1023-4549-b272-0e7d2dfe68bf",
+	"3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	3,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"5a21b9e6-1023-4549-b272-0e7d2dfe68bf");
+INSERT INTO DIM_GE
+	VALUES (4474.000000,
+	3200.000000,
+	"5a21b9e6-1023-4549-b272-0e7d2dfe68bf",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("5a21b9e6-1023-4549-b272-0e7d2dfe68bf",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("66cb2e83-61db-4c61-a7e7-e1586183b9ae",
+	"3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	2,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"66cb2e83-61db-4c61-a7e7-e1586183b9ae");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"66cb2e83-61db-4c61-a7e7-e1586183b9ae",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("66cb2e83-61db-4c61-a7e7-e1586183b9ae",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_LS
+	VALUES ("3a723470-205f-42ed-9370-3e6d4a2c22c9",
+	"3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	"00000000-0000-0000-0000-000000000000",
+	"68039a0d-a4a2-42a6-95e5-b9dafd283528",
+	"c2695b8d-4303-4f75-9969-dd9cf26c047a");
+INSERT INTO DIM_WAY
+	VALUES ("68039a0d-a4a2-42a6-95e5-b9dafd283528",
+	4465.000000,
+	3240.000000,
+	"3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_WAY
+	VALUES ("c2695b8d-4303-4f75-9969-dd9cf26c047a",
+	4584.000000,
+	3240.000000,
+	"3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	"00000000-0000-0000-0000-000000000000",
+	"68039a0d-a4a2-42a6-95e5-b9dafd283528");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ED
+	VALUES ("0fc565f1-e023-4738-8618-425d60f3f6a4",
+	"00000000-0000-0000-0000-000000000000",
+	"3f0e6fdf-0dd3-486b-a5a5-51ee45a12fc7");
+INSERT INTO GD_GE
+	VALUES ("cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	"8c6869c7-7c33-4796-9619-95c30b5bd2c5",
+	"43de624e-0b8f-46da-8c60-352c1d95235e",
+	93,
+	0,
+	'Roverplus101::SW Library::ApplicationSoftware::Port2::BLE HW SW');
+INSERT INTO GD_CON
+	VALUES ("cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("16676915-8aed-443f-9166-95ed16d762ad",
+	"cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	1,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"16676915-8aed-443f-9166-95ed16d762ad");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"16676915-8aed-443f-9166-95ed16d762ad",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("16676915-8aed-443f-9166-95ed16d762ad",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("6c318fa8-d8d6-433f-9d7b-18ab62693447",
+	"cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	3,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"6c318fa8-d8d6-433f-9d7b-18ab62693447");
+INSERT INTO DIM_GE
+	VALUES (4480.000000,
+	3272.000000,
+	"6c318fa8-d8d6-433f-9d7b-18ab62693447",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("6c318fa8-d8d6-433f-9d7b-18ab62693447",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_CTXT
+	VALUES ("3c124835-9898-4beb-8e1c-1cb23a86aeb3",
+	"cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	2,
+	0.000000,
+	0.000000);
+INSERT INTO DIM_ND
+	VALUES (0.000000,
+	0.000000,
+	"3c124835-9898-4beb-8e1c-1cb23a86aeb3");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"3c124835-9898-4beb-8e1c-1cb23a86aeb3",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("3c124835-9898-4beb-8e1c-1cb23a86aeb3",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO GD_LS
+	VALUES ("603db5d9-aab4-48f6-b7d7-ad14e5fecb3d",
+	"cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	"00000000-0000-0000-0000-000000000000",
+	"a00fbca1-070d-4081-822d-6fc9240871a1",
+	"c2cce4ca-71a9-4ba2-8e89-6c8123f9faff");
+INSERT INTO DIM_WAY
+	VALUES ("a00fbca1-070d-4081-822d-6fc9240871a1",
+	4465.000000,
+	3312.000000,
+	"cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_WAY
+	VALUES ("c2cce4ca-71a9-4ba2-8e89-6c8123f9faff",
+	4596.000000,
+	3312.000000,
+	"cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	"00000000-0000-0000-0000-000000000000",
+	"a00fbca1-070d-4081-822d-6fc9240871a1");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("cf0c1f66-5fc6-4ad7-87c0-49c32c640c31",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ED
+	VALUES ("b3336ba6-6c1b-45ad-94e7-0352c7c434f7",
+	"00000000-0000-0000-0000-000000000000",
+	"cf0c1f66-5fc6-4ad7-87c0-49c32c640c31");
 INSERT INTO DIM_DIA
 	VALUES ("8c6869c7-7c33-4796-9619-95c30b5bd2c5",
 	'',
@@ -94,6 +304,239 @@ INSERT INTO DIM_DIA
 	0.000000,
 	0.000000,
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PO
+	VALUES ("beacb5ba-8c90-4ea2-8fa7-a7aec5dc5e52",
+	"67d9074b-8a0a-4f8f-99ef-4274bf2fcda1",
+	'Port1',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("b2a08141-2b54-4850-9e02-ddeac918c1f7",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	"00000000-0000-0000-0000-000000000000",
+	"beacb5ba-8c90-4ea2-8fa7-a7aec5dc5e52");
+INSERT INTO C_R
+	VALUES ("b2a08141-2b54-4850-9e02-ddeac918c1f7",
+	'Hw SW Pin Interfaces',
+	'',
+	'Unnamed Interface',
+	'ApplicationSoftware::Port1::Hw SW Pin Interfaces');
+INSERT INTO SPR_REP
+	VALUES ("31716c9f-5151-4393-95b6-495aa5340d65",
+	"e5561ab7-e93f-4c6a-95ef-93c26d328c53",
+	"b2a08141-2b54-4850-9e02-ddeac918c1f7");
+INSERT INTO SPR_RO
+	VALUES ("31716c9f-5151-4393-95b6-495aa5340d65",
+	'analogWrite',
+	'Writes an analog value (PWM wave) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to analogWrite(), the pin will generate a steady square wave of the specified duty cycle until the next call to analogWrite() (or a call to digitalRead() or digitalWrite() on the same pin). The frequency of the PWM signal on most pins is approximately 490 Hz. On the Uno and similar boards, pins 5 and 6 have a frequency of approximately 980 Hz. Pins 3 and 11 on the Leonardo also run at 980 Hz. 
+
+On most Arduino boards (those with the ATmega168 or ATmega328), this function works on pins 3, 5, 6, 9, 10, and 11. On the Arduino Mega, it works on pins 2 - 13 and 44 - 46. Older Arduino boards with an ATmega8 only support analogWrite() on pins 9, 10, and 11. 
+
+The Arduino Due supports analogWrite() on pins 2 through 13, plus pins DAC0 and DAC1. Unlike the PWM pins, DAC0 and DAC1 are Digital to Analog converters, and act as true analog outputs. 
+
+You do not need to call pinMode() to set the pin as an output before calling analogWrite(). 
+
+The analogWrite function has nothing to do with the analog pins or the analogRead function.
+',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("e5561ab7-e93f-4c6a-95ef-93c26d328c53",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogWrite',
+	'Writes an analog value (PWM wave) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to analogWrite(), the pin will generate a steady square wave of the specified duty cycle until the next call to analogWrite() (or a call to digitalRead() or digitalWrite() on the same pin). The frequency of the PWM signal on most pins is approximately 490 Hz. On the Uno and similar boards, pins 5 and 6 have a frequency of approximately 980 Hz. Pins 3 and 11 on the Leonardo also run at 980 Hz. 
+
+On most Arduino boards (those with the ATmega168 or ATmega328), this function works on pins 3, 5, 6, 9, 10, and 11. On the Arduino Mega, it works on pins 2 - 13 and 44 - 46. Older Arduino boards with an ATmega8 only support analogWrite() on pins 9, 10, and 11. 
+
+The Arduino Due supports analogWrite() on pins 2 through 13, plus pins DAC0 and DAC1. Unlike the PWM pins, DAC0 and DAC1 are Digital to Analog converters, and act as true analog outputs. 
+
+You do not need to call pinMode() to set the pin as an output before calling analogWrite(). 
+
+The analogWrite function has nothing to do with the analog pins or the analogRead function.
+',
+	'../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("9eebfe63-c149-4ed8-a105-df8d0e04a3af",
+	"1e9c908b-ef57-49ac-94f3-d1d8b6ffa046",
+	"b2a08141-2b54-4850-9e02-ddeac918c1f7");
+INSERT INTO SPR_RO
+	VALUES ("9eebfe63-c149-4ed8-a105-df8d0e04a3af",
+	'analogRead',
+	'Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023. This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using analogReference(). 
+
+It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second. 
+',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("1e9c908b-ef57-49ac-94f3-d1d8b6ffa046",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogRead',
+	'Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023. This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using analogReference(). 
+
+It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second. 
+',
+	'../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("8cdf603e-db1c-47e1-8943-455ecb171a7a",
+	"353561d4-f8d4-4403-9e15-44a736648c4f",
+	"b2a08141-2b54-4850-9e02-ddeac918c1f7");
+INSERT INTO SPR_RO
+	VALUES ("8cdf603e-db1c-47e1-8943-455ecb171a7a",
+	'digitalWrite',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("353561d4-f8d4-4403-9e15-44a736648c4f",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'digitalWrite',
+	'',
+	'../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("27dc8f58-f073-4db6-9776-3828e1defa8b",
+	"4f856ff9-c811-4cc5-a90a-f8ea836258f2",
+	"b2a08141-2b54-4850-9e02-ddeac918c1f7");
+INSERT INTO SPR_RO
+	VALUES ("27dc8f58-f073-4db6-9776-3828e1defa8b",
+	'digitalRead',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("4f856ff9-c811-4cc5-a90a-f8ea836258f2",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'digitalRead',
+	'',
+	'../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("e2ef1a4d-7287-4202-83db-d6f44309bff5",
+	"66a48aa8-c247-4f3c-a760-7f4da41169c3",
+	"b2a08141-2b54-4850-9e02-ddeac918c1f7");
+INSERT INTO SPR_RO
+	VALUES ("e2ef1a4d-7287-4202-83db-d6f44309bff5",
+	'pinMode',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("66a48aa8-c247-4f3c-a760-7f4da41169c3",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'pinMode',
+	'',
+	'../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("f3ea1ba7-b09f-4c7d-b972-2e065a608d70",
+	"7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce",
+	"b2a08141-2b54-4850-9e02-ddeac918c1f7");
+INSERT INTO SPR_RO
+	VALUES ("f3ea1ba7-b09f-4c7d-b972-2e065a608d70",
+	'analogReference',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("7f81bde2-f1d5-4a76-9a30-5ec4e42c6dce",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'analogReference',
+	'',
+	'../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("e17a5277-c0a3-49a6-a23d-25d01e827773",
+	"2be33a5d-e6a8-435b-b325-e1cfe5b8fb61",
+	"b2a08141-2b54-4850-9e02-ddeac918c1f7");
+INSERT INTO SPR_RO
+	VALUES ("e17a5277-c0a3-49a6-a23d-25d01e827773",
+	'micros',
+	'Returns the number of microseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 70 minutes. On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds (i.e. the value returned is always a multiple of four). On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds. 
+
+Note: there are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
+',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("2be33a5d-e6a8-435b-b325-e1cfe5b8fb61",
+	"a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	-1,
+	'micros',
+	'Returns the number of microseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 70 minutes. On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds (i.e. the value returned is always a multiple of four). On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds. 
+
+Note: there are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
+',
+	'../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("a38e3279-215b-448e-8d22-2c95a8ce6ea2",
+	"00000000-0000-0000-0000-000000000000",
+	'Hw SW Pin Interfaces',
+	'UltraSonic
+int Echo = A0;  
+int Trig = A5; 
+//Motor Right
+int enA = 6; ////Changed from 10 to 11  Rewired. 
+int in1 = 7;
+int in2 = 8;
+//motor Left
+int enB = 5;
+int in3 = 10;
+int in4 = 11;
+int AB = 200;
+int OFF = 0;
+// Limit the Motor commands.',
+	'../../Interface Library/Hardware Software Interface/Hw SW Pin Interfaces/Hw SW Pin Interfaces.xtuml');
+INSERT INTO C_PO
+	VALUES ("bc9f1867-3305-44bb-adc8-7a80105239af",
+	"67d9074b-8a0a-4f8f-99ef-4274bf2fcda1",
+	'Port2',
+	0,
+	0);
+INSERT INTO C_IR
+	VALUES ("43de624e-0b8f-46da-8c60-352c1d95235e",
+	"45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	"00000000-0000-0000-0000-000000000000",
+	"bc9f1867-3305-44bb-adc8-7a80105239af");
+INSERT INTO C_R
+	VALUES ("43de624e-0b8f-46da-8c60-352c1d95235e",
+	'BLE HW SW',
+	'',
+	'Unnamed Interface',
+	'ApplicationSoftware::Port2::BLE HW SW');
+INSERT INTO SPR_REP
+	VALUES ("a0f83fea-4676-43a5-ad3e-b31855e2ee88",
+	"eef75db5-5c22-4959-9281-072e8e0a4d4d",
+	"43de624e-0b8f-46da-8c60-352c1d95235e");
+INSERT INTO SPR_RS
+	VALUES ("a0f83fea-4676-43a5-ad3e-b31855e2ee88",
+	'BLEHardware',
+	'',
+	'',
+	3,
+	0);
+INSERT INTO C_EP_PROXY
+	VALUES ("eef75db5-5c22-4959-9281-072e8e0a4d4d",
+	"45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	-1,
+	'BLEHardware',
+	'',
+	'../../Interface Library/Hardware Software Interface/BLE HW SW/BLE HW SW.xtuml');
+INSERT INTO C_I_PROXY
+	VALUES ("45a70fe5-72b9-4829-9c44-620ee8d32bc2",
+	"00000000-0000-0000-0000-000000000000",
+	'BLE HW SW',
+	'',
+	'../../Interface Library/Hardware Software Interface/BLE HW SW/BLE HW SW.xtuml');
 INSERT INTO PE_PE
 	VALUES ("67d9074b-8a0a-4f8f-99ef-4274bf2fcda1",
 	1,
