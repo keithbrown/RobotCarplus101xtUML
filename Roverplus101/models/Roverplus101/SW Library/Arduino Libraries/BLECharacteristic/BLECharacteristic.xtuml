@@ -1,15 +1,15 @@
 -- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
 
 INSERT INTO O_OBJ
-	VALUES ("efbdea4d-82a5-4085-829a-c540ea0bbd81",
+	VALUES ("12f7cc71-c8df-4490-82d0-6fe505a6d4fb",
 	'BLECharacteristic',
 	7,
 	'BLECharacteristic',
 	'',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_TFR
-	VALUES ("fdb775bd-4b17-44c6-a7f9-fa0988757d47",
-	"efbdea4d-82a5-4085-829a-c540ea0bbd81",
+	VALUES ("417b4272-c5e5-4d6a-884f-3c6e44961095",
+	"12f7cc71-c8df-4490-82d0-6fe505a6d4fb",
 	'setEventHandler',
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
@@ -21,24 +21,24 @@ INSERT INTO O_TFR
 	0);
 INSERT INTO O_ID
 	VALUES (0,
-	"efbdea4d-82a5-4085-829a-c540ea0bbd81");
+	"12f7cc71-c8df-4490-82d0-6fe505a6d4fb");
 INSERT INTO O_ID
 	VALUES (1,
-	"efbdea4d-82a5-4085-829a-c540ea0bbd81");
+	"12f7cc71-c8df-4490-82d0-6fe505a6d4fb");
 INSERT INTO O_ID
 	VALUES (2,
-	"efbdea4d-82a5-4085-829a-c540ea0bbd81");
+	"12f7cc71-c8df-4490-82d0-6fe505a6d4fb");
 INSERT INTO PE_PE
-	VALUES ("efbdea4d-82a5-4085-829a-c540ea0bbd81",
+	VALUES ("12f7cc71-c8df-4490-82d0-6fe505a6d4fb",
 	1,
-	"804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"6d299dbf-b3d9-48bd-a263-64f43a6d9ad7",
 	"00000000-0000-0000-0000-000000000000",
 	4);
 INSERT INTO EP_PKG_PROXY
-	VALUES ("804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	VALUES ("6d299dbf-b3d9-48bd-a263-64f43a6d9ad7",
 	"00000000-0000-0000-0000-000000000000",
 	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
-	'Application Software',
+	'Arduino Libraries',
 	'',
 	0,
-	'../Application Software.xtuml');
+	'../Arduino Libraries.xtuml');

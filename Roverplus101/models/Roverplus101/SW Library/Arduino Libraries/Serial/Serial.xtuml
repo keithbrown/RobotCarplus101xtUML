@@ -1,15 +1,15 @@
 -- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
 
 INSERT INTO O_OBJ
-	VALUES ("9f179e4b-9162-41e4-a92e-efb526f67ef2",
+	VALUES ("8c8a91af-6ce6-4e56-9be5-67a163430d17",
 	'Serial',
 	9,
 	'Serial',
 	'',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_TFR
-	VALUES ("4965c53d-e155-4e85-a525-7b486ee42117",
-	"9f179e4b-9162-41e4-a92e-efb526f67ef2",
+	VALUES ("2c33ec1b-ce63-41fd-b95b-d6b4b472bb44",
+	"8c8a91af-6ce6-4e56-9be5-67a163430d17",
 	'begin',
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
@@ -20,8 +20,8 @@ INSERT INTO O_TFR
 	"00000000-0000-0000-0000-000000000000",
 	0);
 INSERT INTO O_TPARM
-	VALUES ("19274197-5390-4727-b77c-40eb7cba13e2",
-	"4965c53d-e155-4e85-a525-7b486ee42117",
+	VALUES ("9a6c0f5a-c41b-4773-b5f6-44258aa9930c",
+	"2c33ec1b-ce63-41fd-b95b-d6b4b472bb44",
 	'baudrate',
 	"ba5eda7a-def5-0000-0000-000000000002",
 	0,
@@ -30,24 +30,24 @@ INSERT INTO O_TPARM
 	'');
 INSERT INTO O_ID
 	VALUES (0,
-	"9f179e4b-9162-41e4-a92e-efb526f67ef2");
+	"8c8a91af-6ce6-4e56-9be5-67a163430d17");
 INSERT INTO O_ID
 	VALUES (1,
-	"9f179e4b-9162-41e4-a92e-efb526f67ef2");
+	"8c8a91af-6ce6-4e56-9be5-67a163430d17");
 INSERT INTO O_ID
 	VALUES (2,
-	"9f179e4b-9162-41e4-a92e-efb526f67ef2");
+	"8c8a91af-6ce6-4e56-9be5-67a163430d17");
 INSERT INTO PE_PE
-	VALUES ("9f179e4b-9162-41e4-a92e-efb526f67ef2",
+	VALUES ("8c8a91af-6ce6-4e56-9be5-67a163430d17",
 	1,
-	"804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"6d299dbf-b3d9-48bd-a263-64f43a6d9ad7",
 	"00000000-0000-0000-0000-000000000000",
 	4);
 INSERT INTO EP_PKG_PROXY
-	VALUES ("804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	VALUES ("6d299dbf-b3d9-48bd-a263-64f43a6d9ad7",
 	"00000000-0000-0000-0000-000000000000",
 	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
-	'Application Software',
+	'Arduino Libraries',
 	'',
 	0,
-	'../Application Software.xtuml');
+	'../Arduino Libraries.xtuml');

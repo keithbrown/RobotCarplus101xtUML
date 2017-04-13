@@ -1,0 +1,194 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("f74330e1-6327-4d03-b3db-fdd358fa5c7b",
+	'CurieIMU',
+	1,
+	'CurieIMU',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("cbb81d04-d79b-4e62-a050-c93358498201",
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b",
+	'begin',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0);
+INSERT INTO O_TFR
+	VALUES ("0c720d6e-aa11-4aa2-8001-2662082debe4",
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b",
+	'setGyroRate',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"cbb81d04-d79b-4e62-a050-c93358498201",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("808a8462-5b7a-462b-80b6-96b30597dfc5",
+	"0c720d6e-aa11-4aa2-8001-2662082debe4",
+	'rate',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TFR
+	VALUES ("d0bb13fd-e1ef-4843-a306-7d3ecaccbff4",
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b",
+	'setAccelerometerRate',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"0c720d6e-aa11-4aa2-8001-2662082debe4",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("9a813025-5f72-44f2-9979-5dfa3161beba",
+	"d0bb13fd-e1ef-4843-a306-7d3ecaccbff4",
+	'rate',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TFR
+	VALUES ("0fbeae4d-b153-40bc-b828-99e1795008b0",
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b",
+	'SetAccelerometerRange',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"d0bb13fd-e1ef-4843-a306-7d3ecaccbff4",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("e6d0a488-e1cb-4a6b-955f-1953dfe6e9c3",
+	"0fbeae4d-b153-40bc-b828-99e1795008b0",
+	'range',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TFR
+	VALUES ("b4348b5f-15fd-486c-bd84-6afc2360921f",
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b",
+	'setGyroRange',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"0fbeae4d-b153-40bc-b828-99e1795008b0",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("90eab8f9-7863-45b6-aced-cd1457f3f296",
+	"b4348b5f-15fd-486c-bd84-6afc2360921f",
+	'range',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TFR
+	VALUES ("97280f43-3324-44d3-b7c5-a4b21d715e1c",
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b",
+	'readMotionSensor',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"b4348b5f-15fd-486c-bd84-6afc2360921f",
+	0);
+INSERT INTO O_TPARM
+	VALUES ("84458cae-5509-44c4-955c-298f5c119e5b",
+	"97280f43-3324-44d3-b7c5-a4b21d715e1c",
+	'ax',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("03af680e-b8fb-443f-9972-ff463ea4a7b0",
+	"97280f43-3324-44d3-b7c5-a4b21d715e1c",
+	'ay',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"84458cae-5509-44c4-955c-298f5c119e5b",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("ac55e1e2-129c-4689-ac40-79af510ae77c",
+	"97280f43-3324-44d3-b7c5-a4b21d715e1c",
+	'az',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"03af680e-b8fb-443f-9972-ff463ea4a7b0",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("c9d86bc4-6094-461b-8d0f-bd371067b495",
+	"97280f43-3324-44d3-b7c5-a4b21d715e1c",
+	'gx',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"ac55e1e2-129c-4689-ac40-79af510ae77c",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("2cb93aa9-202f-4b9b-9b1f-d3a40fffdbca",
+	"97280f43-3324-44d3-b7c5-a4b21d715e1c",
+	'gy',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"c9d86bc4-6094-461b-8d0f-bd371067b495",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("e7c634f0-32d6-4d33-8b7f-0ad8f311e4ce",
+	"97280f43-3324-44d3-b7c5-a4b21d715e1c",
+	'gz',
+	"ba5eda7a-def5-0000-0000-000000000002",
+	0,
+	'',
+	"2cb93aa9-202f-4b9b-9b1f-d3a40fffdbca",
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b");
+INSERT INTO O_ID
+	VALUES (1,
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b");
+INSERT INTO O_ID
+	VALUES (2,
+	"f74330e1-6327-4d03-b3db-fdd358fa5c7b");
+INSERT INTO PE_PE
+	VALUES ("f74330e1-6327-4d03-b3db-fdd358fa5c7b",
+	1,
+	"6d299dbf-b3d9-48bd-a263-64f43a6d9ad7",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6d299dbf-b3d9-48bd-a263-64f43a6d9ad7",
+	"00000000-0000-0000-0000-000000000000",
+	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
+	'Arduino Libraries',
+	'',
+	0,
+	'../Arduino Libraries.xtuml');

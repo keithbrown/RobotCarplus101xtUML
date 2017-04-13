@@ -1,15 +1,15 @@
 -- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
 
 INSERT INTO O_OBJ
-	VALUES ("e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	VALUES ("35009067-e4dd-46af-aa03-719b2ccfb612",
 	'BLEPeripheral',
 	5,
 	'BLEPeripheral',
 	'',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_TFR
-	VALUES ("441030d8-eff1-4d15-96ca-ae4c6c233996",
-	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	VALUES ("d1b1ac40-e002-4770-99a2-cc445d063713",
+	"35009067-e4dd-46af-aa03-719b2ccfb612",
 	'setLocalName',
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
@@ -20,8 +20,8 @@ INSERT INTO O_TFR
 	"00000000-0000-0000-0000-000000000000",
 	0);
 INSERT INTO O_TFR
-	VALUES ("f59488a3-3c8e-41f5-8db6-620112365fa8",
-	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	VALUES ("0f1e88e8-df9c-48ba-9637-ea6d64ae0d2b",
+	"35009067-e4dd-46af-aa03-719b2ccfb612",
 	'setAdvertisedServiceUuid',
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
@@ -29,11 +29,11 @@ INSERT INTO O_TFR
 	'',
 	3,
 	'',
-	"441030d8-eff1-4d15-96ca-ae4c6c233996",
+	"d1b1ac40-e002-4770-99a2-cc445d063713",
 	0);
 INSERT INTO O_TFR
-	VALUES ("df7564b8-375a-474f-9c57-cc4e406c1638",
-	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	VALUES ("b530d9d6-d5f9-464d-8243-2070c6692d5c",
+	"35009067-e4dd-46af-aa03-719b2ccfb612",
 	'addAttribute',
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
@@ -41,11 +41,11 @@ INSERT INTO O_TFR
 	'',
 	3,
 	'',
-	"f59488a3-3c8e-41f5-8db6-620112365fa8",
+	"0f1e88e8-df9c-48ba-9637-ea6d64ae0d2b",
 	0);
 INSERT INTO O_TFR
-	VALUES ("5df087f8-569a-4524-995b-8b467547888c",
-	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	VALUES ("c8e0d549-ade1-48a4-92ad-407e3d271313",
+	"35009067-e4dd-46af-aa03-719b2ccfb612",
 	'setEventHandler',
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
@@ -53,11 +53,11 @@ INSERT INTO O_TFR
 	'',
 	3,
 	'',
-	"df7564b8-375a-474f-9c57-cc4e406c1638",
+	"b530d9d6-d5f9-464d-8243-2070c6692d5c",
 	0);
 INSERT INTO O_TFR
-	VALUES ("ee41b559-4f2b-4f63-8ec6-911a78e189ac",
-	"e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	VALUES ("be0b5f39-eb75-4091-b301-8b68a39ade92",
+	"35009067-e4dd-46af-aa03-719b2ccfb612",
 	'begin',
 	'',
 	"ba5eda7a-def5-0000-0000-000000000000",
@@ -65,28 +65,28 @@ INSERT INTO O_TFR
 	'',
 	3,
 	'',
-	"5df087f8-569a-4524-995b-8b467547888c",
+	"c8e0d549-ade1-48a4-92ad-407e3d271313",
 	0);
 INSERT INTO O_ID
 	VALUES (0,
-	"e49a119f-63d1-48e7-9b42-067a9d49cd09");
+	"35009067-e4dd-46af-aa03-719b2ccfb612");
 INSERT INTO O_ID
 	VALUES (1,
-	"e49a119f-63d1-48e7-9b42-067a9d49cd09");
+	"35009067-e4dd-46af-aa03-719b2ccfb612");
 INSERT INTO O_ID
 	VALUES (2,
-	"e49a119f-63d1-48e7-9b42-067a9d49cd09");
+	"35009067-e4dd-46af-aa03-719b2ccfb612");
 INSERT INTO PE_PE
-	VALUES ("e49a119f-63d1-48e7-9b42-067a9d49cd09",
+	VALUES ("35009067-e4dd-46af-aa03-719b2ccfb612",
 	1,
-	"804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	"6d299dbf-b3d9-48bd-a263-64f43a6d9ad7",
 	"00000000-0000-0000-0000-000000000000",
 	4);
 INSERT INTO EP_PKG_PROXY
-	VALUES ("804c9a7f-2055-43cd-9c09-04cd92770b5a",
+	VALUES ("6d299dbf-b3d9-48bd-a263-64f43a6d9ad7",
 	"00000000-0000-0000-0000-000000000000",
 	"2518083a-2ba1-465f-bd3a-63b0d4df9730",
-	'Application Software',
+	'Arduino Libraries',
 	'',
 	0,
-	'../Application Software.xtuml');
+	'../Arduino Libraries.xtuml');
